@@ -1,0 +1,11 @@
+{
+  "name": "Agro Copiloto · Santa María de Bequelo",
+  "short_name": "Agro Copiloto",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3f5f2",
+  "theme_color": "#173c2c",
+  "description": "Seguimiento agronómico de lotes, recorridas, fotos y prescripciones.",
+  "scope": "/",
+  "orientation": "portrait-primary"
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#173c2c" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Agro Copiloto" />
+  <title>Agro Copiloto · Santa María de Bequelo</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css?v=0500" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">CAMPAÑA</div>
+      <h1>Santa María de Bequelo <span style="font-size:11px;color:#69766f;font-weight:700">v0.5.0</span></h1>
+    </div>
+    <button id="installBtn" class="ghost hidden">Instalar</button>
+  </header>
+
+  <main id="app">
+    <section id="homeView" class="view active"></section>
+    <section id="lotsView" class="view"></section>
+    <section id="lotView" class="view"></section>
+    <section id="scoutView" class="view"></section>
+    <section id="photosView" class="view"></section>
+    <section id="prescriptionsView" class="view"></section>
+    <section id="tasksView" class="view"></section>
+  </main>
+
+  <nav class="bottomnav">
+    <button data-view="homeView" class="active">Inicio</button>
+    <button data-view="lotsView">Lotes</button>
+    <button data-view="scoutView">Recorrida</button>
+    <button data-view="photosView">Fotos</button>
+    <button data-view="prescriptionsView">Dosis</button>
+  </nav>
+
+  <script src="app.js?v=0500"></script>
+</body>
+</html>

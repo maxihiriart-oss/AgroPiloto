@@ -1,0 +1,166 @@
+{
+  "scouts": [
+    {
+      "campo": "Isletas",
+      "lote": "21",
+      "cultivo": "Trigo",
+      "stage": "Z30",
+      "condition": "Muy bueno",
+      "notes": "Buen potencial y cobertura. Referencia de comparación con Isletas 20.",
+      "ts": 1786380000001
+    },
+    {
+      "campo": "Isletas",
+      "lote": "20",
+      "cultivo": "Trigo",
+      "stage": "Z29/Z30",
+      "condition": "Bueno · heterogéneo",
+      "notes": "Primer ambiente más flaco y atrasado; segunda zona mejora. Potencial visual algo menor al 21. Revisar prescripción sin decidir recorte sólo por recorrida.",
+      "ts": 1786380000002
+    },
+    {
+      "campo": "Santa Maria",
+      "lote": "4b",
+      "cultivo": "Cebada",
+      "stage": "Z30/Z31",
+      "condition": "Muy bueno",
+      "notes": "Transición Z30/Z31; algunas plantas ya en Z31. Muy buena cobertura y potencial.",
+      "ts": 1786380000003
+    },
+    {
+      "campo": "Isletas",
+      "lote": "18",
+      "cultivo": "Trigo",
+      "stage": "Z30",
+      "condition": "Bueno",
+      "notes": "Buen estado general y cobertura.",
+      "ts": 1786380000004
+    },
+    {
+      "campo": "Santa Maria",
+      "lote": "13",
+      "cultivo": "Cebada",
+      "stage": "Z30",
+      "condition": "Bueno · heterogéneo",
+      "notes": "Buen estado general. Algunas zonas anegadas quedaron más ralas y con menor potencial.",
+      "ts": 1786380000005
+    },
+    {
+      "campo": "Santa Maria",
+      "lote": "5a",
+      "cultivo": "Trigo",
+      "stage": "Z30",
+      "condition": "Muy bueno",
+      "notes": "Trigo Guayabo/Terra. Muy lindo y con buen potencial. Siembra dividida: Guayabo 15 ha + Terra 24 ha según planilla.",
+      "ts": 1786380000006
+    },
+    {
+      "campo": "Santa Maria",
+      "lote": "5b",
+      "cultivo": "Cebada",
+      "stage": "Z30",
+      "condition": "Bueno",
+      "notes": "Buen desarrollo general. Se observó enlamezado/cobertura verde superficial importante.",
+      "ts": 1786380000007
+    },
+    {
+      "campo": "Isletas",
+      "lote": "17",
+      "cultivo": "Colza",
+      "stage": "D1 · BBCH 50-51",
+      "condition": "Muy desuniforme",
+      "notes": "Cabeceras y primeros ~100 m castigados por anegamiento y heladas; hacia adentro mejora claramente. Zona buena en D1, con dispersión de estadios.",
+      "ts": 1786380000008
+    },
+    {
+      "campo": "Isletas",
+      "lote": "16",
+      "cultivo": "Colza CL",
+      "stage": "BBCH 60-61",
+      "condition": "Muy bueno",
+      "notes": "Claramente mejor y más uniforme que Isletas 17. Inicio de floración.",
+      "ts": 1786380000009
+    },
+    {
+      "campo": "Isletas",
+      "lote": "14-15",
+      "cultivo": "Colza",
+      "stage": "Reproductivo temprano",
+      "condition": "Bueno · stand ralo compensado",
+      "notes": "Implantación originalmente rala, pero compensó muy bien con vigor y ramificación. Fondo algo más atrasado.",
+      "ts": 1786380000010
+    },
+    {
+      "campo": "Isletas",
+      "lote": "19",
+      "cultivo": "Trigo",
+      "stage": "Z30",
+      "condition": "Bueno · algo flaco",
+      "notes": "Menor biomasa/cobertura que los mejores trigos, pero uniforme y activo.",
+      "ts": 1786380000011
+    },
+    {
+      "campo": "Isletas",
+      "lote": "4",
+      "cultivo": "Cebada",
+      "stage": "Z30 avanzado / entrando Z31",
+      "condition": "Muy bueno",
+      "notes": "Muy lindo y parejo. Manejo conjunto de seguimiento con Isletas 5/5a según criterio de campo.",
+      "ts": 1786380000012
+    },
+    {
+      "campo": "Isletas",
+      "lote": "3",
+      "cultivo": "Cebada",
+      "stage": "Z31",
+      "condition": "Excelente",
+      "notes": "Z31 bien marcado. Muy buena cobertura, macollaje y potencial. Sin argumento visual para recortar N por pérdida de potencial.",
+      "ts": 1786380000013
+    },
+    {
+      "campo": "Isletas",
+      "lote": "10",
+      "cultivo": "Colza",
+      "stage": "Reproductivo temprano",
+      "condition": "Ralo · compensando",
+      "notes": "Implantación algo rala/desuniforme. Plantas presentes vigorosas; cabeceras más comprometidas. Buena capacidad de compensación.",
+      "ts": 1786380000014
+    },
+    {
+      "campo": "Isletas",
+      "lote": "11",
+      "cultivo": "Colza",
+      "stage": "Reproductivo temprano",
+      "condition": "Ralo · compensando",
+      "notes": "Implantación algo rala/desuniforme. Plantas presentes vigorosas; cabeceras más comprometidas. Buena capacidad de compensación.",
+      "ts": 1786380000015
+    },
+    {
+      "campo": "Isletas",
+      "lote": "11 chico",
+      "cultivo": "Cebada",
+      "stage": "Z31",
+      "condition": "Excelente · altísima biomasa",
+      "notes": "Muy cerrada y vigorosa, con acostado vegetativo. Revisar N por vigor/riesgo de vuelco. Prescripción C1/Z30: 124,4 kg/ha de urea azufrada.",
+      "ts": 1786380000016
+    },
+    {
+      "campo": "Isletas",
+      "lote": "13",
+      "cultivo": "Colza",
+      "stage": "Inicio reproductivo / primeras flores aisladas",
+      "condition": "Ralo · buen vigor",
+      "notes": "Campazo pero implantación rala. Plantas remanentes vigorosas y ramificadas. NDVI del 10/08: rojo interpretado como ausencia de cultivo; estimación visual ~79% con cultivo (~49-50 ha efectivas sobre ~63 ha útiles) y ~21% sin cultivo. Estimación a validar con raster/GeoTIFF.",
+      "ts": 1786380000017
+    }
+  ],
+  "photos": [],
+  "tasks": [
+    {
+      "text": "Aplicar tratamientos de gramíneas cuando haya piso; en trigo agregar Único 0,550 L/ha a la recomendación ya definida (decisión validada con Dioni).",
+      "done": false,
+      "ts": 1786380000030
+    }
+  ],
+  "validations": {}
+}

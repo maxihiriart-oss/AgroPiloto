@@ -1,0 +1,3897 @@
+{
+  "campaign": "Invierno 2026-27",
+  "generatedFrom": "Planilla madre / Base_Agronomica_Invierno_2026_v2.xlsx + recorridas 10/08/2026",
+  "lots": [
+    {
+      "Campo": "Isletas",
+      "Lote": "10",
+      "Cultivo": "Colza",
+      "Superficie ha": 64.0,
+      "Variedad": "Nuola 300",
+      "Fecha siembra real": "20-may",
+      "Dosis siembra": 3.9,
+      "SPS kg/ha": 287,
+      "KCl kg/ha": 223,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": null,
+      "Validación": null,
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "11",
+      "Cultivo": "Colza",
+      "Superficie ha": 16.0,
+      "Variedad": "Nuola 300",
+      "Fecha siembra real": "22-may",
+      "Dosis siembra": 3.9,
+      "SPS kg/ha": 452,
+      "KCl kg/ha": 0,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": null,
+      "Validación": null,
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "11 chico",
+      "Cultivo": "Cebada",
+      "Superficie ha": 3.0,
+      "Variedad": null,
+      "Fecha siembra real": "02-jun",
+      "Dosis siembra": null,
+      "SPS kg/ha": 471,
+      "KCl kg/ha": 0,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": 124.4,
+      "Validación": "Pendiente",
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null,
+      "Dato siembra nota": "Fecha confirmada por Maxi el 12/08/2026."
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "12",
+      "Cultivo": "Cebada",
+      "Superficie ha": 15.0,
+      "Variedad": null,
+      "Fecha siembra real": "02-jun",
+      "Dosis siembra": null,
+      "SPS kg/ha": 355,
+      "KCl kg/ha": 188,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": 171.17,
+      "Validación": "Pendiente",
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null,
+      "Dato siembra nota": "Fecha confirmada por Maxi el 12/08/2026."
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "13",
+      "Cultivo": "Colza",
+      "Superficie ha": 63.0,
+      "Variedad": null,
+      "Fecha siembra real": "29-may",
+      "Dosis siembra": null,
+      "SPS kg/ha": 292,
+      "KCl kg/ha": 190,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": null,
+      "Validación": null,
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null,
+      "Dato siembra nota": "Fecha confirmada por Maxi el 12/08/2026."
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "14-15",
+      "Cultivo": "Colza",
+      "Superficie ha": 98.0,
+      "Variedad": "Nuola 300",
+      "Fecha siembra real": "17-may",
+      "Dosis siembra": 3.9,
+      "SPS kg/ha": 129,
+      "KCl kg/ha": 163,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": null,
+      "Validación": null,
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": "Se sembraron 10 has de Isletas 20"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "16",
+      "Cultivo": "Colza CL",
+      "Superficie ha": 18.0,
+      "Variedad": "Ceres Imi",
+      "Fecha siembra real": "23-may",
+      "Dosis siembra": 4.9,
+      "SPS kg/ha": 245,
+      "KCl kg/ha": 0,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": null,
+      "Validación": null,
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null,
+      "Dato siembra nota": "Fecha confirmada por Maxi el 12/08/2026."
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "17",
+      "Cultivo": "Colza",
+      "Superficie ha": 68.0,
+      "Variedad": "Nuola 300",
+      "Fecha siembra real": "19-may",
+      "Dosis siembra": 3.9,
+      "SPS kg/ha": 128,
+      "KCl kg/ha": 173,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": null,
+      "Validación": null,
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "18",
+      "Cultivo": "Trigo",
+      "Superficie ha": 51.0,
+      "Variedad": "Terra 5703",
+      "Fecha siembra real": "31-may",
+      "Dosis siembra": 111.5,
+      "SPS kg/ha": 450,
+      "KCl kg/ha": 174,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": 169.52,
+      "Validación": "Pendiente",
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "19",
+      "Cultivo": "Trigo",
+      "Superficie ha": 83.0,
+      "Variedad": "Terra 5703",
+      "Fecha siembra real": "01-jun",
+      "Dosis siembra": 111.5,
+      "SPS kg/ha": 166,
+      "KCl kg/ha": 111,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": null,
+      "Validación": null,
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "2",
+      "Cultivo": "Cebada",
+      "Superficie ha": 11.0,
+      "Variedad": "Fana",
+      "Fecha siembra real": "31-may",
+      "Dosis siembra": 129.2,
+      "SPS kg/ha": 450,
+      "KCl kg/ha": 0,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": 160.99,
+      "Validación": "Pendiente",
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "20",
+      "Cultivo": "Trigo",
+      "Superficie ha": 50.0,
+      "Variedad": "Terra 5703",
+      "Fecha siembra real": "30-may",
+      "Dosis siembra": 111.5,
+      "SPS kg/ha": 179,
+      "KCl kg/ha": 150,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": null,
+      "Validación": null,
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "21",
+      "Cultivo": "Trigo",
+      "Superficie ha": 61.0,
+      "Variedad": "Guayabo",
+      "Fecha siembra real": "24-may",
+      "Dosis siembra": 111.1,
+      "SPS kg/ha": 259,
+      "KCl kg/ha": 143,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": 143.79,
+      "Validación": "Pendiente",
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "22",
+      "Cultivo": "Colza CL",
+      "Superficie ha": 33.0,
+      "Variedad": "Ceres Imi",
+      "Fecha siembra real": "24-may",
+      "Dosis siembra": 4.9,
+      "SPS kg/ha": 244,
+      "KCl kg/ha": 186,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": null,
+      "Validación": null,
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "3",
+      "Cultivo": "Cebada",
+      "Superficie ha": 57.0,
+      "Variedad": "Fana",
+      "Fecha siembra real": "31-may",
+      "Dosis siembra": 129.2,
+      "SPS kg/ha": 256,
+      "KCl kg/ha": 169,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": 141.97,
+      "Validación": "Pendiente",
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "4",
+      "Cultivo": "Cebada",
+      "Superficie ha": 27.0,
+      "Variedad": "Fana",
+      "Fecha siembra real": "31-may",
+      "Dosis siembra": 129.2,
+      "SPS kg/ha": 402,
+      "KCl kg/ha": 252,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": 168.81,
+      "Validación": "Pendiente",
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "5a",
+      "Cultivo": "Cebada",
+      "Superficie ha": 7.0,
+      "Variedad": "Fana",
+      "Fecha siembra real": "30-may",
+      "Dosis siembra": 129.2,
+      "SPS kg/ha": 0,
+      "KCl kg/ha": 271,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": 185.13,
+      "Validación": "Pendiente",
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "5b",
+      "Cultivo": "Trigo",
+      "Superficie ha": 9.0,
+      "Variedad": "Terra 5703",
+      "Fecha siembra real": "02-jun",
+      "Dosis siembra": 111.5,
+      "SPS kg/ha": 418,
+      "KCl kg/ha": 280,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": null,
+      "Validación": null,
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "6",
+      "Cultivo": "Trigo",
+      "Superficie ha": 17.0,
+      "Variedad": "Terra 5703",
+      "Fecha siembra real": "02-jun",
+      "Dosis siembra": 111.5,
+      "SPS kg/ha": 265,
+      "KCl kg/ha": 155,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": null,
+      "Validación": null,
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "7",
+      "Cultivo": "Trigo",
+      "Superficie ha": 17.0,
+      "Variedad": "Terra 5703",
+      "Fecha siembra real": "02-jun",
+      "Dosis siembra": 111.5,
+      "SPS kg/ha": 275,
+      "KCl kg/ha": 184,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": null,
+      "Validación": null,
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "8",
+      "Cultivo": "Colza CL",
+      "Superficie ha": 51.0,
+      "Variedad": "Ceres Imi",
+      "Fecha siembra real": "27-may",
+      "Dosis siembra": 4.9,
+      "SPS kg/ha": 346,
+      "KCl kg/ha": 192,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": null,
+      "Validación": null,
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null,
+      "Dato siembra nota": "Fecha confirmada por Maxi el 12/08/2026."
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "13",
+      "Cultivo": "Cebada",
+      "Superficie ha": 70.75,
+      "Variedad": "Fana",
+      "Fecha siembra real": "04-jun",
+      "Dosis siembra": 129.2,
+      "SPS kg/ha": 289,
+      "KCl kg/ha": 89,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": 146.67,
+      "Validación": "Pendiente",
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "4b",
+      "Cultivo": "Cebada",
+      "Superficie ha": 22.34,
+      "Variedad": "Fana",
+      "Fecha siembra real": "05-jun",
+      "Dosis siembra": 129.2,
+      "SPS kg/ha": 292,
+      "KCl kg/ha": 117,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": 162.73,
+      "Validación": "Pendiente",
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "4d",
+      "Cultivo": "Cebada",
+      "Superficie ha": 31.61,
+      "Variedad": "Fana",
+      "Fecha siembra real": "05-jun",
+      "Dosis siembra": 129.2,
+      "SPS kg/ha": 214,
+      "KCl kg/ha": 171,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": 165.04,
+      "Validación": "Pendiente",
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "4e",
+      "Cultivo": "Cebada",
+      "Superficie ha": 12.56,
+      "Variedad": "Fana",
+      "Fecha siembra real": "05-jun",
+      "Dosis siembra": 129.2,
+      "SPS kg/ha": 0,
+      "KCl kg/ha": 228,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": 148.97,
+      "Validación": "Pendiente",
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "5a",
+      "Cultivo": "Trigo",
+      "Superficie ha": 44.3,
+      "Variedad": "Guayabo/Terra",
+      "Fecha siembra real": "29-may",
+      "Dosis siembra": 111.1,
+      "SPS kg/ha": 189,
+      "KCl kg/ha": 177,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": null,
+      "Validación": null,
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": "Guayabo 15 ha - Terra 24 ha"
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "5b",
+      "Cultivo": "Cebada",
+      "Superficie ha": 62.59,
+      "Variedad": "Fana",
+      "Fecha siembra real": "04-jun",
+      "Dosis siembra": 129.2,
+      "SPS kg/ha": 151,
+      "KCl kg/ha": 168,
+      "Urea S base kg/ha": 60,
+      "Prescripción C1/Z30 kg/ha": 155.85,
+      "Validación": "Pendiente",
+      "Dosis ajustada kg/ha": null,
+      "Estado/Fenología": null,
+      "Observación recorrida": null
+    }
+  ],
+  "history": [
+    {
+      "ID": 1,
+      "Fecha recom": "18-may",
+      "Campo": "Isletas",
+      "Lote": "14-15",
+      "Cultivo/estado": "Colza",
+      "Labor": "Siembra",
+      "Producto": "Nuola 300",
+      "Dosis/ha": 3.9,
+      "Superficie ha": 108.0,
+      "Total usado": 421.2,
+      "Realizado por": "Mendy",
+      "Fecha real": "17-may",
+      "Observaciones": "Se sembraron 10 has de Isletas 20"
+    },
+    {
+      "ID": 2,
+      "Fecha recom": "19-may",
+      "Campo": "Isletas",
+      "Lote": "17",
+      "Cultivo/estado": "Colza",
+      "Labor": "Siembra",
+      "Producto": "Nuola 300",
+      "Dosis/ha": 3.9,
+      "Superficie ha": 68.0,
+      "Total usado": 265.2,
+      "Realizado por": "Mendy",
+      "Fecha real": "19-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 3,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "8-10-11-13-14-15-16-17-22",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Glifosato",
+      "Dosis/ha": 3.0,
+      "Superficie ha": 419.0,
+      "Total usado": 1257.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 4,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "8-10-11-13-14-15-16-17-22",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Clopiralid",
+      "Dosis/ha": 0.15,
+      "Superficie ha": 419.0,
+      "Total usado": 62.9,
+      "Realizado por": "Mendy",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 5,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "8-10-11-13-14-15-16-17-22",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Cletodim",
+      "Dosis/ha": 0.6,
+      "Superficie ha": 419.0,
+      "Total usado": 251.4,
+      "Realizado por": "Mendy",
+      "Fecha real": "21-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 6,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "16",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Carfentrazone",
+      "Dosis/ha": 0.1,
+      "Superficie ha": 18.0,
+      "Total usado": 1.8,
+      "Realizado por": "Mendy",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 7,
+      "Fecha recom": "22-may",
+      "Campo": "Isletas",
+      "Lote": "18-19-20",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Glifosato",
+      "Dosis/ha": 3.5,
+      "Superficie ha": 170.0,
+      "Total usado": 595.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 8,
+      "Fecha recom": "22-may",
+      "Campo": "Isletas",
+      "Lote": "18-19-20",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Paraquat",
+      "Dosis/ha": 3.0,
+      "Superficie ha": 170.0,
+      "Total usado": 510.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 9,
+      "Fecha recom": "22-may",
+      "Campo": "Isletas",
+      "Lote": "18-19-20",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Amina",
+      "Dosis/ha": 1.0,
+      "Superficie ha": 170.0,
+      "Total usado": 170.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 10,
+      "Fecha recom": "22-may",
+      "Campo": "Isletas",
+      "Lote": "18-19-20",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Piroxazulfone",
+      "Dosis/ha": 0.1,
+      "Superficie ha": 170.0,
+      "Total usado": 17.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 11,
+      "Fecha recom": "22-may",
+      "Campo": "Isletas",
+      "Lote": "18-19-20",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Diuron",
+      "Dosis/ha": 0.3,
+      "Superficie ha": 170.0,
+      "Total usado": 51.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 12,
+      "Fecha recom": "22-may",
+      "Campo": "Isletas",
+      "Lote": "19",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Cletodim",
+      "Dosis/ha": 0.5,
+      "Superficie ha": 82.0,
+      "Total usado": 41.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 13,
+      "Fecha recom": "22-may",
+      "Campo": "Isletas",
+      "Lote": "21",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Glifosato",
+      "Dosis/ha": 3.5,
+      "Superficie ha": 62.0,
+      "Total usado": 217.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 14,
+      "Fecha recom": "22-may",
+      "Campo": "Isletas",
+      "Lote": "21",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Paraquat",
+      "Dosis/ha": 3.0,
+      "Superficie ha": 62.0,
+      "Total usado": 186.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 15,
+      "Fecha recom": "22-may",
+      "Campo": "Isletas",
+      "Lote": "21",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Amina",
+      "Dosis/ha": 0.6,
+      "Superficie ha": 62.0,
+      "Total usado": 37.2,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 16,
+      "Fecha recom": "22-may",
+      "Campo": "Isletas",
+      "Lote": "21",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Piroxazulfone",
+      "Dosis/ha": 0.1,
+      "Superficie ha": 62.0,
+      "Total usado": 6.2,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 17,
+      "Fecha recom": "22-may",
+      "Campo": "Isletas",
+      "Lote": "21",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Diuron",
+      "Dosis/ha": 0.3,
+      "Superficie ha": 62.0,
+      "Total usado": 18.6,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 18,
+      "Fecha recom": "22-may",
+      "Campo": "Isletas",
+      "Lote": "21",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Carfentrazone",
+      "Dosis/ha": 0.08,
+      "Superficie ha": 62.0,
+      "Total usado": 5.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 19,
+      "Fecha recom": "22-may",
+      "Campo": "Santa Maria",
+      "Lote": "5a",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Glifosato",
+      "Dosis/ha": 3.5,
+      "Superficie ha": 39.0,
+      "Total usado": 136.5,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 20,
+      "Fecha recom": "22-may",
+      "Campo": "Santa Maria",
+      "Lote": "5a",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Paraquat",
+      "Dosis/ha": 3.0,
+      "Superficie ha": 39.0,
+      "Total usado": 117.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 21,
+      "Fecha recom": "22-may",
+      "Campo": "Santa Maria",
+      "Lote": "5a",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Amina",
+      "Dosis/ha": 0.6,
+      "Superficie ha": 39.0,
+      "Total usado": 23.4,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 22,
+      "Fecha recom": "22-may",
+      "Campo": "Santa Maria",
+      "Lote": "5a",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Piroxazulfone",
+      "Dosis/ha": 0.1,
+      "Superficie ha": 39.0,
+      "Total usado": 3.9,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 23,
+      "Fecha recom": "22-may",
+      "Campo": "Santa Maria",
+      "Lote": "5a",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Diuron",
+      "Dosis/ha": 0.3,
+      "Superficie ha": 39.0,
+      "Total usado": 11.7,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 24,
+      "Fecha recom": "22-may",
+      "Campo": "Santa Maria",
+      "Lote": "5a",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Carfentrazone",
+      "Dosis/ha": 0.08,
+      "Superficie ha": 39.0,
+      "Total usado": 3.1,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 25,
+      "Fecha recom": "22-may",
+      "Campo": "Santa Maria",
+      "Lote": "4b-4e-13",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Glifosato",
+      "Dosis/ha": 3.5,
+      "Superficie ha": 107.0,
+      "Total usado": 374.5,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 26,
+      "Fecha recom": "22-may",
+      "Campo": "Santa Maria",
+      "Lote": "4b-4e-13",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Amina",
+      "Dosis/ha": 1.0,
+      "Superficie ha": 107.0,
+      "Total usado": 107.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 27,
+      "Fecha recom": "22-may",
+      "Campo": "Santa Maria",
+      "Lote": "4b-4e-13",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Cletodim",
+      "Dosis/ha": 0.4,
+      "Superficie ha": 107.0,
+      "Total usado": 42.8,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 28,
+      "Fecha recom": "25-may",
+      "Campo": "Isletas",
+      "Lote": "2-3-5-5a-11 chico-12",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Glifosato",
+      "Dosis/ha": 3.5,
+      "Superficie ha": 125.0,
+      "Total usado": 437.5,
+      "Realizado por": "Mendy",
+      "Fecha real": "25-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 29,
+      "Fecha recom": "25-may",
+      "Campo": "Isletas",
+      "Lote": "2-3-5-5a-11 chico-12",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Paraquat",
+      "Dosis/ha": 3.0,
+      "Superficie ha": 125.0,
+      "Total usado": 375.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "25-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 30,
+      "Fecha recom": "25-may",
+      "Campo": "Isletas",
+      "Lote": "2-3-5-5a-11 chico-12",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Amina",
+      "Dosis/ha": 0.65,
+      "Superficie ha": 125.0,
+      "Total usado": 81.3,
+      "Realizado por": "Mendy",
+      "Fecha real": "25-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 31,
+      "Fecha recom": "25-may",
+      "Campo": "Isletas",
+      "Lote": "2-3-5-5a-11 chico-12",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Carfentrazone",
+      "Dosis/ha": 0.1,
+      "Superficie ha": 125.0,
+      "Total usado": 12.5,
+      "Realizado por": "Mendy",
+      "Fecha real": "25-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 32,
+      "Fecha recom": "25-may",
+      "Campo": "Isletas",
+      "Lote": "5b-6-7",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Glifosato",
+      "Dosis/ha": 3.5,
+      "Superficie ha": 37.0,
+      "Total usado": 129.5,
+      "Realizado por": "Mendy",
+      "Fecha real": "25-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 33,
+      "Fecha recom": "25-may",
+      "Campo": "Isletas",
+      "Lote": "5b-6-7",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Paraquat",
+      "Dosis/ha": 3.0,
+      "Superficie ha": 37.0,
+      "Total usado": 111.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "25-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 34,
+      "Fecha recom": "25-may",
+      "Campo": "Isletas",
+      "Lote": "5b-6-7",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Amina",
+      "Dosis/ha": 0.65,
+      "Superficie ha": 37.0,
+      "Total usado": 24.1,
+      "Realizado por": "Mendy",
+      "Fecha real": "25-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 35,
+      "Fecha recom": "25-may",
+      "Campo": "Isletas",
+      "Lote": "5b-6-7",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Piroxazulfone",
+      "Dosis/ha": 0.1,
+      "Superficie ha": 37.0,
+      "Total usado": 3.7,
+      "Realizado por": "Mendy",
+      "Fecha real": "25-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 36,
+      "Fecha recom": "25-may",
+      "Campo": "Isletas",
+      "Lote": "5b-6-7",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Diuron",
+      "Dosis/ha": 0.3,
+      "Superficie ha": 37.0,
+      "Total usado": 11.1,
+      "Realizado por": "Mendy",
+      "Fecha real": "25-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 37,
+      "Fecha recom": "25-may",
+      "Campo": "Santa Maria",
+      "Lote": "5b-4d",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Glifosato",
+      "Dosis/ha": 3.5,
+      "Superficie ha": 94.0,
+      "Total usado": 329.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "25-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 38,
+      "Fecha recom": "25-may",
+      "Campo": "Santa Maria",
+      "Lote": "5b-4d",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Amina",
+      "Dosis/ha": 1.0,
+      "Superficie ha": 94.0,
+      "Total usado": 94.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "25-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 39,
+      "Fecha recom": "25-may",
+      "Campo": "Santa Maria",
+      "Lote": "5b-4d",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Cletodim",
+      "Dosis/ha": 0.4,
+      "Superficie ha": 94.0,
+      "Total usado": 37.6,
+      "Realizado por": "Mendy",
+      "Fecha real": "25-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 40,
+      "Fecha recom": "28-may",
+      "Campo": "Isletas",
+      "Lote": "19",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Paraquat",
+      "Dosis/ha": 2.0,
+      "Superficie ha": 82.0,
+      "Total usado": 164.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "28-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 41,
+      "Fecha recom": "28-may",
+      "Campo": "Isletas",
+      "Lote": "19",
+      "Cultivo/estado": "Barbecho",
+      "Labor": "Aplicar",
+      "Producto": "Piroxazulfone",
+      "Dosis/ha": 0.1,
+      "Superficie ha": 82.0,
+      "Total usado": 8.2,
+      "Realizado por": "Mendy",
+      "Fecha real": "28-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 42,
+      "Fecha recom": "31-may",
+      "Campo": "Isletas",
+      "Lote": "20",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Siembra",
+      "Producto": "Terra 5703",
+      "Dosis/ha": 111.5,
+      "Superficie ha": 35.0,
+      "Total usado": 3902.5,
+      "Realizado por": "Mendy",
+      "Fecha real": "30-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 43,
+      "Fecha recom": "31-may",
+      "Campo": "Isletas",
+      "Lote": "18",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Siembra",
+      "Producto": "Terra 5703",
+      "Dosis/ha": 111.5,
+      "Superficie ha": 53.0,
+      "Total usado": 5909.5,
+      "Realizado por": "Mendy",
+      "Fecha real": "31-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 44,
+      "Fecha recom": "02-jun",
+      "Campo": "Isletas",
+      "Lote": "19",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Siembra",
+      "Producto": "Terra 5703",
+      "Dosis/ha": 111.5,
+      "Superficie ha": 82.0,
+      "Total usado": 9143.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "01-jun",
+      "Observaciones": null
+    },
+    {
+      "ID": 45,
+      "Fecha recom": "03-jun",
+      "Campo": "Isletas",
+      "Lote": "5b-6-7",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Siembra",
+      "Producto": "Terra 5703",
+      "Dosis/ha": 111.5,
+      "Superficie ha": 37.0,
+      "Total usado": 4125.5,
+      "Realizado por": "Mendy",
+      "Fecha real": "02-jun",
+      "Observaciones": null
+    },
+    {
+      "ID": 46,
+      "Fecha recom": "04-jun",
+      "Campo": "Santa Maria",
+      "Lote": "5b-13",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Siembra",
+      "Producto": "Fana",
+      "Dosis/ha": 129.2,
+      "Superficie ha": 131.0,
+      "Total usado": 16925.2,
+      "Realizado por": "Mendy",
+      "Fecha real": "04-jun",
+      "Observaciones": null
+    },
+    {
+      "ID": 47,
+      "Fecha recom": "23-may",
+      "Campo": "Santa Maria",
+      "Lote": "16",
+      "Cultivo/estado": "Colza",
+      "Labor": "Siembra",
+      "Producto": "Ceres Imi",
+      "Dosis/ha": 4.9,
+      "Superficie ha": 18.0,
+      "Total usado": 88.2,
+      "Realizado por": "Mendy",
+      "Fecha real": "23-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 48,
+      "Fecha recom": "28-may",
+      "Campo": "Isletas",
+      "Lote": "21",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Siembra",
+      "Producto": "Guayabo",
+      "Dosis/ha": 111.1,
+      "Superficie ha": 62.0,
+      "Total usado": 6888.2,
+      "Realizado por": "Mendy",
+      "Fecha real": "24-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 49,
+      "Fecha recom": "30-may",
+      "Campo": "Isletas",
+      "Lote": "4-5a",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Siembra",
+      "Producto": "Fana",
+      "Dosis/ha": 129.2,
+      "Superficie ha": 44.0,
+      "Total usado": 5684.8,
+      "Realizado por": "Mendy",
+      "Fecha real": "30-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 50,
+      "Fecha recom": "29-may",
+      "Campo": "Santa Maria",
+      "Lote": "5a",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Siembra",
+      "Producto": "Guayabo/Terra",
+      "Dosis/ha": 111.1,
+      "Superficie ha": 39.0,
+      "Total usado": 4332.9,
+      "Realizado por": "Mendy",
+      "Fecha real": "29-may",
+      "Observaciones": "Guayabo 15 ha - Terra 24 ha"
+    },
+    {
+      "ID": 51,
+      "Fecha recom": "22-may",
+      "Campo": "Isletas",
+      "Lote": "8",
+      "Cultivo/estado": "Colza",
+      "Labor": "Siembra",
+      "Producto": "Ceres Imi",
+      "Dosis/ha": 4.9,
+      "Superficie ha": 50.0,
+      "Total usado": 245.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "02-jun",
+      "Observaciones": null
+    },
+    {
+      "ID": 52,
+      "Fecha recom": "01-jun",
+      "Campo": "Isletas",
+      "Lote": "18",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Siembra",
+      "Producto": "Terra 5703",
+      "Dosis/ha": 111.5,
+      "Superficie ha": 53.0,
+      "Total usado": 5909.5,
+      "Realizado por": "Mendy",
+      "Fecha real": "31-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 53,
+      "Fecha recom": "05-jun",
+      "Campo": "Santa Maria",
+      "Lote": "4d",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Siembra",
+      "Producto": "Fana",
+      "Dosis/ha": 129.2,
+      "Superficie ha": 32.0,
+      "Total usado": 4134.4,
+      "Realizado por": "Mendy",
+      "Fecha real": "05-jun",
+      "Observaciones": null
+    },
+    {
+      "ID": 54,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "10",
+      "Cultivo/estado": "Colza",
+      "Labor": "Siembra",
+      "Producto": "Nuola 300",
+      "Dosis/ha": 3.9,
+      "Superficie ha": 64.0,
+      "Total usado": 249.6,
+      "Realizado por": "Mendy",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 55,
+      "Fecha recom": "22-may",
+      "Campo": "Isletas",
+      "Lote": "11",
+      "Cultivo/estado": "Colza",
+      "Labor": "Siembra",
+      "Producto": "Nuola 300",
+      "Dosis/ha": 3.9,
+      "Superficie ha": 15.0,
+      "Total usado": 58.5,
+      "Realizado por": "Mendy",
+      "Fecha real": "22-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 56,
+      "Fecha recom": "24-may",
+      "Campo": "Isletas",
+      "Lote": "22",
+      "Cultivo/estado": "Colza",
+      "Labor": "Siembra",
+      "Producto": "Ceres Imi",
+      "Dosis/ha": 4.9,
+      "Superficie ha": 34.0,
+      "Total usado": 166.6,
+      "Realizado por": "Mendy",
+      "Fecha real": "24-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 57,
+      "Fecha recom": "05-jun",
+      "Campo": "Santa Maria",
+      "Lote": "4E-4B",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Siembra",
+      "Producto": "Fana",
+      "Dosis/ha": 129.2,
+      "Superficie ha": 35.0,
+      "Total usado": 4522.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "05-jun",
+      "Observaciones": null
+    },
+    {
+      "ID": 58,
+      "Fecha recom": "31-may",
+      "Campo": "Isletas",
+      "Lote": "2-3-4",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Siembra",
+      "Producto": "Fana",
+      "Dosis/ha": 129.2,
+      "Superficie ha": 99.0,
+      "Total usado": 12790.8,
+      "Realizado por": "Mendy",
+      "Fecha real": "31-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 59,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "2",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 450.0,
+      "Superficie ha": 11.0,
+      "Total usado": 5067.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 60,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "3",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 256.0,
+      "Superficie ha": 57.0,
+      "Total usado": 14545.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 61,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "4",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 402.0,
+      "Superficie ha": 27.0,
+      "Total usado": 10919.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 62,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "5a",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 0.0,
+      "Superficie ha": 7.0,
+      "Total usado": 0.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 63,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "5b",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 418.0,
+      "Superficie ha": 9.0,
+      "Total usado": 3620.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 64,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "6",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 265.0,
+      "Superficie ha": 17.0,
+      "Total usado": 4415.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 65,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "7",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 275.0,
+      "Superficie ha": 17.0,
+      "Total usado": 4595.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 66,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "8",
+      "Cultivo/estado": "Colza CL",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 346.0,
+      "Superficie ha": 51.0,
+      "Total usado": 17580.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 67,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "10",
+      "Cultivo/estado": "Colza",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 287.0,
+      "Superficie ha": 64.0,
+      "Total usado": 18448.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 68,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "11 chico",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 471.0,
+      "Superficie ha": 3.0,
+      "Total usado": 1413.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 69,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "11",
+      "Cultivo/estado": "Colza",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 452.0,
+      "Superficie ha": 16.0,
+      "Total usado": 7315.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 70,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "12",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 355.0,
+      "Superficie ha": 15.0,
+      "Total usado": 5303.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 71,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "13",
+      "Cultivo/estado": "Colza",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 292.0,
+      "Superficie ha": 63.0,
+      "Total usado": 18414.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 72,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "14-15",
+      "Cultivo/estado": "Colza",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 129.0,
+      "Superficie ha": 98.0,
+      "Total usado": 12698.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 73,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "16",
+      "Cultivo/estado": "Colza CL",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 245.0,
+      "Superficie ha": 18.0,
+      "Total usado": 4436.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 74,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "17",
+      "Cultivo/estado": "Colza",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 128.0,
+      "Superficie ha": 68.0,
+      "Total usado": 8755.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 75,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "18",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 450.0,
+      "Superficie ha": 51.0,
+      "Total usado": 22892.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 76,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "19",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 166.0,
+      "Superficie ha": 83.0,
+      "Total usado": 13810.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 77,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "20",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 179.0,
+      "Superficie ha": 50.0,
+      "Total usado": 9000.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 78,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "21",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 259.0,
+      "Superficie ha": 61.0,
+      "Total usado": 15925.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 79,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "22",
+      "Cultivo/estado": "Colza CL",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 244.0,
+      "Superficie ha": 33.0,
+      "Total usado": 7971.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 80,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "4b",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 292.0,
+      "Superficie ha": 22.34,
+      "Total usado": 6519.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 81,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "4d",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 214.0,
+      "Superficie ha": 31.61,
+      "Total usado": 6749.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 82,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "4e",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 0.0,
+      "Superficie ha": 12.56,
+      "Total usado": 0.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 83,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "5a",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 189.0,
+      "Superficie ha": 44.3,
+      "Total usado": 8388.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 84,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "5b",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 151.0,
+      "Superficie ha": 62.59,
+      "Total usado": 9479.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 85,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "13",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "SPS",
+      "Dosis/ha": 289.0,
+      "Superficie ha": 70.75,
+      "Total usado": 20412.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 86,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "2",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 0.0,
+      "Superficie ha": 11.0,
+      "Total usado": 0.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 87,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "3",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 169.0,
+      "Superficie ha": 57.0,
+      "Total usado": 9599.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 88,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "4",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 252.0,
+      "Superficie ha": 27.0,
+      "Total usado": 6848.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 89,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "5a",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 271.0,
+      "Superficie ha": 7.0,
+      "Total usado": 1864.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 90,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "5b",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 280.0,
+      "Superficie ha": 9.0,
+      "Total usado": 2425.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 91,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "6",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 155.0,
+      "Superficie ha": 17.0,
+      "Total usado": 2582.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 92,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "7",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 184.0,
+      "Superficie ha": 17.0,
+      "Total usado": 3075.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 93,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "8",
+      "Cultivo/estado": "Colza CL",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 192.0,
+      "Superficie ha": 51.0,
+      "Total usado": 9776.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 94,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "10",
+      "Cultivo/estado": "Colza",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 223.0,
+      "Superficie ha": 64.0,
+      "Total usado": 14368.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 95,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "11 chico",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 0.0,
+      "Superficie ha": 3.0,
+      "Total usado": 0.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 96,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "11",
+      "Cultivo/estado": "Colza",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 0.0,
+      "Superficie ha": 16.0,
+      "Total usado": 0.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 97,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "12",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 188.0,
+      "Superficie ha": 15.0,
+      "Total usado": 2803.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 98,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "13",
+      "Cultivo/estado": "Colza",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 190.0,
+      "Superficie ha": 63.0,
+      "Total usado": 11976.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 99,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "14-15",
+      "Cultivo/estado": "Colza",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 163.0,
+      "Superficie ha": 98.0,
+      "Total usado": 16069.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 100,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "16",
+      "Cultivo/estado": "Colza CL",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 0.0,
+      "Superficie ha": 18.0,
+      "Total usado": 0.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 101,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "17",
+      "Cultivo/estado": "Colza",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 173.0,
+      "Superficie ha": 68.0,
+      "Total usado": 11832.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 102,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "18",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 174.0,
+      "Superficie ha": 51.0,
+      "Total usado": 8861.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 103,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "19",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 111.0,
+      "Superficie ha": 83.0,
+      "Total usado": 9215.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 104,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "20",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 150.0,
+      "Superficie ha": 50.0,
+      "Total usado": 7560.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 105,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "21",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 143.0,
+      "Superficie ha": 61.0,
+      "Total usado": 8793.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 106,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "22",
+      "Cultivo/estado": "Colza CL",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 186.0,
+      "Superficie ha": 33.0,
+      "Total usado": 6084.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 107,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "4b",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 117.0,
+      "Superficie ha": 22.34,
+      "Total usado": 2620.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 108,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "4d",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 171.0,
+      "Superficie ha": 31.61,
+      "Total usado": 5415.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 109,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "4e",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 228.0,
+      "Superficie ha": 12.56,
+      "Total usado": 2858.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 110,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "5a",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 177.0,
+      "Superficie ha": 44.3,
+      "Total usado": 7846.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 111,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "5b",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 168.0,
+      "Superficie ha": 62.59,
+      "Total usado": 10485.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 112,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "13",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "KCL",
+      "Dosis/ha": 89.0,
+      "Superficie ha": 70.75,
+      "Total usado": 6279.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 113,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "2",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 11.0,
+      "Total usado": 675.6,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 114,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "3",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 57.0,
+      "Total usado": 3408.6,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 115,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "4",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 27.0,
+      "Total usado": 1627.8,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 116,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "5a",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 7.0,
+      "Total usado": 412.8,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 117,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "5b",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 9.0,
+      "Total usado": 519.6,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 118,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "6",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 17.0,
+      "Total usado": 999.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 119,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "7",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 17.0,
+      "Total usado": 1003.2,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 120,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "8",
+      "Cultivo/estado": "Colza CL",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 51.0,
+      "Total usado": 3052.8,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 121,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "10",
+      "Cultivo/estado": "Colza",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 64.0,
+      "Total usado": 3862.8,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 122,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "11 chico",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 3.0,
+      "Total usado": 180.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 123,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "11",
+      "Cultivo/estado": "Colza",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 16.0,
+      "Total usado": 972.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 124,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "12",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 15.0,
+      "Total usado": 895.8,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 125,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "13",
+      "Cultivo/estado": "Colza",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 63.0,
+      "Total usado": 3780.6,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 126,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "14-15",
+      "Cultivo/estado": "Colza",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 98.0,
+      "Total usado": 5905.2,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 127,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "16",
+      "Cultivo/estado": "Colza CL",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 18.0,
+      "Total usado": 1087.8,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 128,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "17",
+      "Cultivo/estado": "Colza",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 68.0,
+      "Total usado": 4108.8,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 129,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "18",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 51.0,
+      "Total usado": 3052.2,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 130,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "19",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 83.0,
+      "Total usado": 4987.2,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 131,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "20",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 50.0,
+      "Total usado": 3025.2,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 132,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "21",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 61.0,
+      "Total usado": 3688.8,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 133,
+      "Fecha recom": "20-may",
+      "Campo": "Isletas",
+      "Lote": "22",
+      "Cultivo/estado": "Colza CL",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 33.0,
+      "Total usado": 1963.8,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 134,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "4b",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 22.34,
+      "Total usado": 1340.4,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 135,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "4d",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 31.61,
+      "Total usado": 1896.6,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 136,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "4e",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 12.56,
+      "Total usado": 753.6,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 137,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "5a",
+      "Cultivo/estado": "Trigo",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 44.3,
+      "Total usado": 2658.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 138,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "5b",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 62.59,
+      "Total usado": 3755.4,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 139,
+      "Fecha recom": "20-may",
+      "Campo": "Santa Maria",
+      "Lote": "13",
+      "Cultivo/estado": "Cebada",
+      "Labor": "Fertilización",
+      "Producto": "UREA S",
+      "Dosis/ha": 60.0,
+      "Superficie ha": 70.75,
+      "Total usado": 4245.0,
+      "Realizado por": "Agrosiembra",
+      "Fecha real": "20-may",
+      "Observaciones": null
+    },
+    {
+      "ID": 140,
+      "Fecha recom": "09-dic",
+      "Campo": "Isletas",
+      "Lote": "8-16-22",
+      "Cultivo/estado": "Colza CL",
+      "Labor": "Aplicar",
+      "Producto": "Korvetto",
+      "Dosis/ha": 0.4,
+      "Superficie ha": 102.0,
+      "Total usado": 40.8,
+      "Realizado por": "Mendy",
+      "Fecha real": "09-dic",
+      "Observaciones": null
+    },
+    {
+      "ID": 141,
+      "Fecha recom": "09-dic",
+      "Campo": "Isletas",
+      "Lote": "8-16-22",
+      "Cultivo/estado": "Colza CL",
+      "Labor": "Aplicar",
+      "Producto": "Equs L",
+      "Dosis/ha": 0.15,
+      "Superficie ha": 102.0,
+      "Total usado": 15.3,
+      "Realizado por": "Mendy",
+      "Fecha real": "09-dic",
+      "Observaciones": null
+    },
+    {
+      "ID": 142,
+      "Fecha recom": "09-dic",
+      "Campo": "Isletas",
+      "Lote": "8-16-22",
+      "Cultivo/estado": "Colza CL",
+      "Labor": "Aplicar",
+      "Producto": "Semar",
+      "Dosis/ha": 0.13,
+      "Superficie ha": 102.0,
+      "Total usado": 13.26,
+      "Realizado por": "Mendy",
+      "Fecha real": "09-dic",
+      "Observaciones": null
+    },
+    {
+      "ID": 143,
+      "Fecha recom": "09-dic",
+      "Campo": "Isletas",
+      "Lote": "8-16-22",
+      "Cultivo/estado": "Colza CL",
+      "Labor": "Aplicar",
+      "Producto": "Unico",
+      "Dosis/ha": 0.5,
+      "Superficie ha": 102.0,
+      "Total usado": 51.0,
+      "Realizado por": "Mendy",
+      "Fecha real": "09-dic",
+      "Observaciones": null
+    },
+    {
+      "ID": 144,
+      "Fecha recom": "09-dic",
+      "Campo": "Isletas",
+      "Lote": "8-16-22",
+      "Cultivo/estado": "Colza CL",
+      "Labor": "Aplicar",
+      "Producto": "Detox",
+      "Dosis/ha": 0.4,
+      "Superficie ha": 102.0,
+      "Total usado": 40.8,
+      "Realizado por": "Mendy",
+      "Fecha real": "09-dic",
+      "Observaciones": null
+    },
+    {
+      "ID": 145,
+      "Fecha recom": "12-jul",
+      "Campo": "Isletas",
+      "Lote": "10-11-13-14-15-17",
+      "Cultivo/estado": "Colza",
+      "Labor": "Aplicar",
+      "Producto": "Korvetto",
+      "Dosis/ha": 0.5,
+      "Superficie ha": 317.0,
+      "Total usado": 158.5,
+      "Realizado por": "Mendy",
+      "Fecha real": "12-jul",
+      "Observaciones": null
+    },
+    {
+      "ID": 146,
+      "Fecha recom": "12-jul",
+      "Campo": "Isletas",
+      "Lote": "10-11-13-14-15-17",
+      "Cultivo/estado": "Colza",
+      "Labor": "Aplicar",
+      "Producto": "Equs L",
+      "Dosis/ha": 0.15,
+      "Superficie ha": 317.0,
+      "Total usado": 47.55,
+      "Realizado por": "Mendy",
+      "Fecha real": "12-jul",
+      "Observaciones": null
+    },
+    {
+      "ID": 147,
+      "Fecha recom": "12-jul",
+      "Campo": "Isletas",
+      "Lote": "10-11-13-14-15-17",
+      "Cultivo/estado": "Colza",
+      "Labor": "Aplicar",
+      "Producto": "Cletodim",
+      "Dosis/ha": 0.6,
+      "Superficie ha": 317.0,
+      "Total usado": 190.2,
+      "Realizado por": "Mendy",
+      "Fecha real": "12-jul",
+      "Observaciones": null
+    },
+    {
+      "ID": 148,
+      "Fecha recom": "12-jul",
+      "Campo": "Isletas",
+      "Lote": "10-11-13-14-15-17",
+      "Cultivo/estado": "Colza",
+      "Labor": "Aplicar",
+      "Producto": "Unico",
+      "Dosis/ha": 0.5,
+      "Superficie ha": 317.0,
+      "Total usado": 158.5,
+      "Realizado por": "Mendy",
+      "Fecha real": "12-jul",
+      "Observaciones": null
+    },
+    {
+      "ID": 149,
+      "Fecha recom": "12-jul",
+      "Campo": "Isletas",
+      "Lote": "10-11-13-14-15-17",
+      "Cultivo/estado": "Colza",
+      "Labor": "Aplicar",
+      "Producto": "Detox",
+      "Dosis/ha": 0.4,
+      "Superficie ha": 317.0,
+      "Total usado": 126.8,
+      "Realizado por": "Mendy",
+      "Fecha real": "12-jul",
+      "Observaciones": null
+    }
+  ],
+  "prescriptionB2Z22": [
+    {
+      "Campo": "Isletas",
+      "Lote": "11",
+      "Cultivo": "Cebada",
+      "Total Urea azufrada kg": 305.01,
+      "Promedio kg/ha": 97.11,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "12",
+      "Cultivo": "Cebada",
+      "Total Urea azufrada kg": 2079.74,
+      "Promedio kg/ha": 139.28,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "2",
+      "Cultivo": "Cebada",
+      "Total Urea azufrada kg": 1442.79,
+      "Promedio kg/ha": 128.12,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "3",
+      "Cultivo": "Cebada",
+      "Total Urea azufrada kg": 6435.93,
+      "Promedio kg/ha": 113.29,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "4",
+      "Cultivo": "Cebada",
+      "Total Urea azufrada kg": 3653.76,
+      "Promedio kg/ha": 134.66,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "5A",
+      "Cultivo": "Cebada",
+      "Total Urea azufrada kg": 1013.35,
+      "Promedio kg/ha": 147.26,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "13",
+      "Cultivo": "Cebada",
+      "Total Urea azufrada kg": 8322.27,
+      "Promedio kg/ha": 117.62,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "4B",
+      "Cultivo": "Cebada",
+      "Total Urea azufrada kg": 2911.87,
+      "Promedio kg/ha": 130.37,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "4D",
+      "Cultivo": "Cebada",
+      "Total Urea azufrada kg": 4198.51,
+      "Promedio kg/ha": 132.81,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "4E",
+      "Cultivo": "Cebada",
+      "Total Urea azufrada kg": 1499.57,
+      "Promedio kg/ha": 119.49,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "5B",
+      "Cultivo": "Cebada",
+      "Total Urea azufrada kg": 7810.41,
+      "Promedio kg/ha": 124.81,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "10",
+      "Cultivo": "Colza",
+      "Total Urea azufrada kg": 7528.17,
+      "Promedio kg/ha": 116.94,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "11",
+      "Cultivo": "Colza",
+      "Total Urea azufrada kg": 2086.49,
+      "Promedio kg/ha": 128.35,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "13",
+      "Cultivo": "Colza",
+      "Total Urea azufrada kg": 9628.8,
+      "Promedio kg/ha": 152.81,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "14-15",
+      "Cultivo": "Colza",
+      "Total Urea azufrada kg": 10256.79,
+      "Promedio kg/ha": 104.22,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "16",
+      "Cultivo": "Colza",
+      "Total Urea azufrada kg": 2322.94,
+      "Promedio kg/ha": 128.11,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "17",
+      "Cultivo": "Colza",
+      "Total Urea azufrada kg": 8495.01,
+      "Promedio kg/ha": 124.05,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "22",
+      "Cultivo": "Colza",
+      "Total Urea azufrada kg": 4108.72,
+      "Promedio kg/ha": 125.52,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "8",
+      "Cultivo": "Colza",
+      "Total Urea azufrada kg": 5322.54,
+      "Promedio kg/ha": 104.62,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "19",
+      "Cultivo": "Trigo",
+      "Total Urea azufrada kg": 6931.8,
+      "Promedio kg/ha": 83.39,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "20",
+      "Cultivo": "Trigo",
+      "Total Urea azufrada kg": 9899.2,
+      "Promedio kg/ha": 196.34,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "5B",
+      "Cultivo": "Trigo",
+      "Total Urea azufrada kg": 6362.15,
+      "Promedio kg/ha": 734.6,
+      "Estado": "REVISAR dato fuente"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "6",
+      "Cultivo": "Trigo",
+      "Total Urea azufrada kg": 7055.79,
+      "Promedio kg/ha": 423.94,
+      "Estado": "REVISAR dato fuente"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "7",
+      "Cultivo": "Trigo",
+      "Total Urea azufrada kg": 1342.41,
+      "Promedio kg/ha": 80.34,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "5A",
+      "Cultivo": "Trigo",
+      "Total Urea azufrada kg": 1954.58,
+      "Promedio kg/ha": 44.12,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "18",
+      "Cultivo": "Trigo",
+      "Total Urea azufrada kg": 2092.04,
+      "Promedio kg/ha": 41.12,
+      "Estado": "Prescripción"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "21",
+      "Cultivo": "Trigo",
+      "Total Urea azufrada kg": 6009.98,
+      "Promedio kg/ha": 97.76,
+      "Estado": "Prescripción"
+    }
+  ],
+  "prescriptionC1Z30": [
+    {
+      "Campo": "Isletas",
+      "Lote": "11 chico",
+      "Promedio Urea azufrada kg/ha": 124.4
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "12",
+      "Promedio Urea azufrada kg/ha": 171.17
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "2",
+      "Promedio Urea azufrada kg/ha": 160.99
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "3",
+      "Promedio Urea azufrada kg/ha": 141.97
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "4",
+      "Promedio Urea azufrada kg/ha": 168.81
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "5a",
+      "Promedio Urea azufrada kg/ha": 185.13
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "13",
+      "Promedio Urea azufrada kg/ha": 146.67
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "4b",
+      "Promedio Urea azufrada kg/ha": 162.73
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "4d",
+      "Promedio Urea azufrada kg/ha": 165.04
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "4e",
+      "Promedio Urea azufrada kg/ha": 148.97
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "5b",
+      "Promedio Urea azufrada kg/ha": 155.85
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "18",
+      "Promedio Urea azufrada kg/ha": 169.52
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "21",
+      "Promedio Urea azufrada kg/ha": 143.79
+    },
+    {
+      "Campo": "TOTAL / PROMEDIO PDF",
+      "Lote": null,
+      "Promedio Urea azufrada kg/ha": 154.96
+    }
+  ],
+  "dataIssues": [
+    {
+      "Prioridad": "ALTA",
+      "Tipo": "Fecha a verificar",
+      "Registro": "Colza CL",
+      "Qué verificar": "Aparecen registros con fecha real '09-dic' dentro de una campaña de invierno; conservar hasta confirmar si corresponde a julio u otra fecha."
+    },
+    {
+      "Prioridad": "MEDIA",
+      "Tipo": "Unidad de lote agrupada",
+      "Registro": "Isletas 14-15",
+      "Qué verificar": "La planilla maneja 14-15 como unidad en fertilización/siembra; falta superficie individual para separarlos sin inventar datos."
+    },
+    {
+      "Prioridad": "MEDIA",
+      "Tipo": "Siembra agrupada",
+      "Registro": "Santa Maria 5b-13",
+      "Qué verificar": "La siembra figura agrupada. Se asignó variedad/fecha a ambos lotes, pero la superficie/dosis individual proviene de la fertilización."
+    },
+    {
+      "Prioridad": "MEDIA",
+      "Tipo": "Siembra agrupada",
+      "Registro": "Santa Maria 4E-4B",
+      "Qué verificar": "La siembra figura agrupada. Se asignó variedad/fecha a ambos lotes."
+    },
+    {
+      "Prioridad": "MEDIA",
+      "Tipo": "Siembra agrupada",
+      "Registro": "Isletas 2-3-4",
+      "Qué verificar": "La siembra figura agrupada. Se asignó variedad/fecha a los tres lotes."
+    },
+    {
+      "Prioridad": "MEDIA",
+      "Tipo": "Siembra agrupada",
+      "Registro": "Isletas 5b-6-7",
+      "Qué verificar": "La siembra figura agrupada. Se asignó variedad/fecha a los tres lotes."
+    },
+    {
+      "Prioridad": "BAJA",
+      "Tipo": "Nomenclatura",
+      "Registro": "4b/4B, 4d/4D, 4e/4E, 5b/5B",
+      "Qué verificar": "Se normaliza visualmente en la app futura, pero en esta base se conserva la nomenclatura de origen."
+    },
+    {
+      "Prioridad": "ALTA",
+      "Tipo": "Prescripción B2/Z22",
+      "Registro": "Isletas 5B trigo",
+      "Qué verificar": "El PDF reporta promedio 734,60 kg/ha; valor agronómicamente atípico. Confirmar tabla/origen antes de usar."
+    },
+    {
+      "Prioridad": "ALTA",
+      "Tipo": "Prescripción B2/Z22",
+      "Registro": "Isletas 6 trigo",
+      "Qué verificar": "El PDF reporta promedio 423,94 kg/ha; valor agronómicamente atípico. Confirmar tabla/origen antes de usar."
+    },
+    {
+      "Prioridad": "MEDIA",
+      "Tipo": "Estado de labor",
+      "Registro": "B2/Z22",
+      "Qué verificar": "El archivo es un mapa de prescripción. No se marcó como 'aplicado' hasta contar con confirmación de ejecución."
+    },
+    {
+      "Prioridad": "MEDIA",
+      "Tipo": "Corrección de nomenclatura fuente",
+      "Registro": "Isletas 16 siembra",
+      "Qué verificar": "La fila fuente dice Santa Maria 16, pero la unidad espacial y superficie corresponden a Isletas 16. La app lo asigna con trazabilidad y debe confirmarse si aparece otra fuente.",
+      "Resuelto": "Sí · fecha confirmada por Maxi 12/08/2026"
+    },
+    {
+      "Prioridad": "MEDIA",
+      "Tipo": "Fecha de siembra faltante",
+      "Registro": "Isletas 11 chico siembra",
+      "Qué verificar": "No aparece una fila de siembra individual explícita en la planilla madre disponible. Se mantiene sin fecha para no inventar.",
+      "Resuelto": "Sí · fecha confirmada por Maxi 12/08/2026"
+    },
+    {
+      "Prioridad": "MEDIA",
+      "Tipo": "Fecha de siembra faltante",
+      "Registro": "Isletas 12 siembra",
+      "Qué verificar": "No aparece una fila de siembra individual explícita en la planilla madre disponible. Se mantiene sin fecha para no inventar.",
+      "Resuelto": "Sí · fecha confirmada por Maxi 12/08/2026"
+    },
+    {
+      "Prioridad": "MEDIA",
+      "Tipo": "Fecha de siembra faltante",
+      "Registro": "Isletas 13 siembra",
+      "Qué verificar": "No aparece una fila de siembra individual explícita en la planilla madre disponible. Se mantiene sin fecha para no inventar.",
+      "Resuelto": "Sí · fecha confirmada por Maxi 12/08/2026"
+    }
+  ],
+  "establishment": "Santa María de Bequelo",
+  "appVersion": "0.4.4",
+  "notes": [
+    "Base restringida exclusivamente al establecimiento Santa María de Bequelo.",
+    "La recorrida del 10/08/2026 se precarga en initial_state.json."
+  ],
+  "weather": {
+    "latitude": -33.456947,
+    "longitude": -57.606092,
+    "locationSource": "Centroide del KMZ Santa Maria de Bequelo",
+    "provider": "Open-Meteo Archive (ERA5/ERA5-Land)",
+    "officialReferences": [
+      "INUMET Banco Nacional de Datos Meteorológicos y Climáticos",
+      "INIA GRAS Banco de datos agroclimático / SIGRAS"
+    ]
+  },
+  "cropProtectionPlan": [
+    {
+      "Campo": "Isletas",
+      "Lote": "10",
+      "Cultivo": "Colza",
+      "items": [
+        {
+          "Producto": "Korvetto",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Equs L",
+          "Dosis": 0.15,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Cletodim",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Detox",
+          "Dosis": 0.4,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Aplicado · 12-jul",
+      "Motivo": "Tratamiento registrado como realizado por Mendy en la planilla madre.",
+      "Fuente": "Planilla madre INVIERNO 26"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "11",
+      "Cultivo": "Colza",
+      "items": [
+        {
+          "Producto": "Korvetto",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Equs L",
+          "Dosis": 0.15,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Cletodim",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Detox",
+          "Dosis": 0.4,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Aplicado · 12-jul",
+      "Motivo": "Tratamiento registrado como realizado por Mendy en la planilla madre.",
+      "Fuente": "Planilla madre INVIERNO 26"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "13",
+      "Cultivo": "Colza",
+      "items": [
+        {
+          "Producto": "Korvetto",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Equs L",
+          "Dosis": 0.15,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Cletodim",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Detox",
+          "Dosis": 0.4,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Aplicado · 12-jul",
+      "Motivo": "Tratamiento registrado como realizado por Mendy en la planilla madre.",
+      "Fuente": "Planilla madre INVIERNO 26"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "14-15",
+      "Cultivo": "Colza",
+      "items": [
+        {
+          "Producto": "Korvetto",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Equs L",
+          "Dosis": 0.15,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Cletodim",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Detox",
+          "Dosis": 0.4,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Aplicado · 12-jul",
+      "Motivo": "Tratamiento registrado como realizado por Mendy en la planilla madre.",
+      "Fuente": "Planilla madre INVIERNO 26"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "17",
+      "Cultivo": "Colza",
+      "items": [
+        {
+          "Producto": "Korvetto",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Equs L",
+          "Dosis": 0.15,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Cletodim",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Detox",
+          "Dosis": 0.4,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Aplicado · 12-jul",
+      "Motivo": "Tratamiento registrado como realizado por Mendy en la planilla madre.",
+      "Fuente": "Planilla madre INVIERNO 26"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "8",
+      "Cultivo": "Colza CL",
+      "items": [
+        {
+          "Producto": "Korvetto",
+          "Dosis": 0.4,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Equs L",
+          "Dosis": 0.15,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Semar",
+          "Dosis": 0.13,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Detox",
+          "Dosis": 0.4,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Aplicado · fecha a verificar",
+      "Motivo": "El usuario confirmó que la colza ya se trató; la planilla fuente trae 09-dic, fecha inconsistente para esta campaña.",
+      "Fuente": "Planilla de Seguimiento + confirmación de campo"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "16",
+      "Cultivo": "Colza CL",
+      "items": [
+        {
+          "Producto": "Korvetto",
+          "Dosis": 0.4,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Equs L",
+          "Dosis": 0.15,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Semar",
+          "Dosis": 0.13,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Detox",
+          "Dosis": 0.4,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Aplicado · fecha a verificar",
+      "Motivo": "El usuario confirmó que la colza ya se trató; la planilla fuente trae 09-dic, fecha inconsistente para esta campaña.",
+      "Fuente": "Planilla de Seguimiento + confirmación de campo"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "22",
+      "Cultivo": "Colza CL",
+      "items": [
+        {
+          "Producto": "Korvetto",
+          "Dosis": 0.4,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Equs L",
+          "Dosis": 0.15,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Semar",
+          "Dosis": 0.13,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Detox",
+          "Dosis": 0.4,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Aplicado · fecha a verificar",
+      "Motivo": "El usuario confirmó que la colza ya se trató; la planilla fuente trae 09-dic, fecha inconsistente para esta campaña.",
+      "Fuente": "Planilla de Seguimiento + confirmación de campo"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "2",
+      "Cultivo": "Cebada",
+      "items": [
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
+      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "3",
+      "Cultivo": "Cebada",
+      "items": [
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
+      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "4",
+      "Cultivo": "Cebada",
+      "items": [
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
+      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "5a",
+      "Cultivo": "Cebada",
+      "items": [
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
+      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "11 chico",
+      "Cultivo": "Cebada",
+      "items": [
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
+      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "12",
+      "Cultivo": "Cebada",
+      "items": [
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
+      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "4b",
+      "Cultivo": "Cebada",
+      "items": [
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
+      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "13",
+      "Cultivo": "Cebada",
+      "items": [
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
+      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "5b",
+      "Cultivo": "Cebada",
+      "items": [
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
+      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "4d",
+      "Cultivo": "Cebada",
+      "items": [
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
+      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "4e",
+      "Cultivo": "Cebada",
+      "items": [
+        {
+          "Producto": "Unico",
+          "Dosis": 0.5,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
+      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "5b",
+      "Cultivo": "Trigo",
+      "items": [
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.55,
+          "Unidad": "L/ha",
+          "Uso": "fungicida"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Único 0,550 L/ha agregado a la recomendación de trigo para adelantar fungicida antes de que se complique el piso.",
+      "Fuente": "Planilla de Seguimiento + decisión Maxi/Dioni"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "6",
+      "Cultivo": "Trigo",
+      "items": [
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.55,
+          "Unidad": "L/ha",
+          "Uso": "fungicida"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Único 0,550 L/ha agregado a la recomendación de trigo para adelantar fungicida antes de que se complique el piso.",
+      "Fuente": "Planilla de Seguimiento + decisión Maxi/Dioni"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "7",
+      "Cultivo": "Trigo",
+      "items": [
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.55,
+          "Unidad": "L/ha",
+          "Uso": "fungicida"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Único 0,550 L/ha agregado a la recomendación de trigo para adelantar fungicida antes de que se complique el piso.",
+      "Fuente": "Planilla de Seguimiento + decisión Maxi/Dioni"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "18",
+      "Cultivo": "Trigo",
+      "items": [
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.55,
+          "Unidad": "L/ha",
+          "Uso": "fungicida"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Único 0,550 L/ha agregado a la recomendación de trigo para adelantar fungicida antes de que se complique el piso.",
+      "Fuente": "Planilla de Seguimiento + decisión Maxi/Dioni"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "21",
+      "Cultivo": "Trigo",
+      "items": [
+        {
+          "Producto": "Axial",
+          "Dosis": 0.6,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.55,
+          "Unidad": "L/ha",
+          "Uso": "fungicida"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Único 0,550 L/ha agregado a la recomendación de trigo para adelantar fungicida antes de que se complique el piso.",
+      "Fuente": "Planilla de Seguimiento + decisión Maxi/Dioni"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "19",
+      "Cultivo": "Trigo",
+      "items": [
+        {
+          "Producto": "Merit Plus",
+          "Dosis": 0.1,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.55,
+          "Unidad": "L/ha",
+          "Uso": "fungicida"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Único 0,550 L/ha agregado a la recomendación de trigo para adelantar fungicida antes de que se complique el piso.",
+      "Fuente": "Planilla de Seguimiento + decisión Maxi/Dioni"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "20",
+      "Cultivo": "Trigo",
+      "items": [
+        {
+          "Producto": "Merit Plus",
+          "Dosis": 0.1,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.55,
+          "Unidad": "L/ha",
+          "Uso": "fungicida"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Único 0,550 L/ha agregado a la recomendación de trigo para adelantar fungicida antes de que se complique el piso.",
+      "Fuente": "Planilla de Seguimiento + decisión Maxi/Dioni"
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "5a",
+      "Cultivo": "Trigo",
+      "items": [
+        {
+          "Producto": "Merit Plus",
+          "Dosis": 0.1,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "MCPA",
+          "Dosis": 1.0,
+          "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Unico",
+          "Dosis": 0.55,
+          "Unidad": "L/ha",
+          "Uso": "fungicida"
+        }
+      ],
+      "Estado": "Planificado · ejecutar con piso",
+      "Motivo": "Único 0,550 L/ha agregado a la recomendación de trigo para adelantar fungicida antes de que se complique el piso.",
+      "Fuente": "Planilla de Seguimiento + decisión Maxi/Dioni"
+    }
+  ],
+  "phenologyModel": {
+    "label": "Estimación operacional calibrada a recorridas",
+    "iniaFloweringReference": "https://www.inia.uy/modelo-fenologico-para-estimacion-de-floracion-en-trigo-cebada-y-maiz",
+    "iniaOptifertReference": "https://inia.uy/tecnologias/optifert-n-trigo",
+    "note": "Trigo/cebada: la app estima hitos y se recalibra con Zadoks observado; la referencia INIA oficial calcula floración con localidad, época de emergencia y variedad. Colza: estimación local y calibrada, no presentada como resultado oficial INIA."
+  },
+  "predictiveModel": {
+    "label": "Alertas operativas v0.4.3",
+    "forecastHorizonDays": 10,
+    "weatherForecastProvider": "Open-Meteo Forecast API",
+    "principle": "Alertas de seguimiento, no recomendaciones automáticas. La recorrida y la decisión técnica prevalecen.",
+    "thresholds": {
+      "frostC": 0,
+      "heavyRainDayMm": 25,
+      "rainWindowMm7d": 35,
+      "highWindGustKmh": 45,
+      "dryWindowMm7d": 5
+    }
+  },
+  "operationalPlan": {
+    "startDate": "2026-08-13",
+    "title": "Inicio previsto de aplicaciones en cebadas y trigos con mosquito",
+    "status": "Planificado",
+    "notes": "Arrancar desde el 13/08/2026, sujeto a piso y condiciones meteorológicas. No marcar como aplicado hasta confirmación de ejecución.",
+    "crops": [
+      "Cebada",
+      "Trigo"
+    ]
+  }
+}
