@@ -54,18 +54,38 @@ def init_db():
             image_path TEXT,
             result TEXT
         )""")
-        row = c.execute("SELECT id FROM app_state WHERE id=1").fetchone()
+        initial_file = ROOT / "initial_state.json"
+        try:
+            defaults = json.loads(initial_file.read_text(encoding="utf-8")) if initial_file.exists() else {}
+        except Exception:
+            defaults = {}
+        defaults.setdefault("scouts", [])
+        defaults.setdefault("photos", [])
+        defaults.setdefault("tasks", [])
+        defaults.setdefault("validations", {})
+        defaults.setdefault("operations", [])
+        row = c.execute("SELECT payload FROM app_state WHERE id=1").fetchone()
         if not row:
-            initial_file = ROOT / "initial_state.json"
-            if initial_file.exists():
-                try:
-                    empty = json.loads(initial_file.read_text(encoding="utf-8"))
-                except Exception:
-                    empty = {"scouts": [], "photos": [], "tasks": [], "validations": {}}
-            else:
-                empty = {"scouts": [], "photos": [], "tasks": [], "validations": {}}
             c.execute("INSERT INTO app_state(id,payload,updated_at) VALUES(1,?,?)",
-                      (json.dumps(empty, ensure_ascii=False), datetime.now().isoformat()))
+                      (json.dumps(defaults, ensure_ascii=False), datetime.now().isoformat()))
+        else:
+            # Migración no destructiva: agrega nuevas estructuras/eventos semilla sin pisar datos cargados por el usuario.
+            try:
+                current = json.loads(row["payload"])
+            except Exception:
+                current = {}
+            changed = False
+            for key, fallback in (("scouts", []),("photos", []),("tasks", []),("validations", {}),("operations", [])):
+                if key not in current:
+                    current[key] = fallback.copy() if isinstance(fallback, list) else {}
+                    changed = True
+            existing_ids = {x.get("id") for x in current.get("operations", []) if isinstance(x, dict)}
+            for op in defaults.get("operations", []):
+                if op.get("id") and op.get("id") not in existing_ids:
+                    current["operations"].append(op); existing_ids.add(op.get("id")); changed = True
+            if changed:
+                c.execute("UPDATE app_state SET payload=?, updated_at=? WHERE id=1",
+                          (json.dumps(current, ensure_ascii=False), datetime.now().isoformat()))
 
 init_db()
 
@@ -75,7 +95,7 @@ def index():
 
 @app.get("/api/health")
 def health():
-    return {"ok": True, "version": "0.5.0", "data_dir": str(DATA_DIR)}
+    return {"ok": True, "version": "0.5.1", "data_dir": str(DATA_DIR)}
 
 @app.get("/api/state")
 def get_state():
@@ -212,7 +232,7 @@ def weather():
             "timezone": "America/Montevideo"
         }
         url = "https://archive-api.open-meteo.com/v1/archive?" + urllib.parse.urlencode(params)
-        req = urllib.request.Request(url, headers={"User-Agent":"AgroCopiloto/0.5.0"})
+        req = urllib.request.Request(url, headers={"User-Agent":"AgroCopiloto/0.5.1"})
         with urllib.request.urlopen(req, timeout=20) as resp:
             raw = json.loads(resp.read().decode("utf-8"))
         dd = raw.get("daily") or {}
@@ -292,7 +312,7 @@ def forecast():
             "forecast_days": str(days)
         }
         url = "https://api.open-meteo.com/v1/forecast?" + urllib.parse.urlencode(params)
-        req = urllib.request.Request(url, headers={"User-Agent":"AgroCopiloto/0.5.0"})
+        req = urllib.request.Request(url, headers={"User-Agent":"AgroCopiloto/0.5.1"})
         with urllib.request.urlopen(req, timeout=20) as resp:
             raw = json.loads(resp.read().decode("utf-8"))
         dd = raw.get("daily") or {}

@@ -160,7 +160,94 @@
       "text": "Aplicar tratamientos de gramíneas cuando haya piso; en trigo agregar Único 0,550 L/ha a la recomendación ya definida (decisión validada con Dioni).",
       "done": false,
       "ts": 1786380000030
+    },
+    {
+      "text": "REVISAR con Dioni la sección TRIGO del mapa C1/Z30 2026-27: la columna Promedio usa superficies corridas de otros lotes. No usar esas dosis hasta validar.",
+      "done": false,
+      "ts": 1786950000000,
+      "priority": "ALTA"
     }
   ],
-  "validations": {}
+  "validations": {},
+  "operations": [
+    {
+      "id": "spray-sm-barley-2026-08-14",
+      "type": "Pulverización",
+      "status": "Realizada",
+      "date": "2026-08-14",
+      "operator": "Chumillo · mosquito",
+      "lots": [
+        "Santa Maria|4b|Cebada",
+        "Santa Maria|13|Cebada",
+        "Santa Maria|5b|Cebada",
+        "Santa Maria|4d|Cebada",
+        "Santa Maria|4e|Cebada"
+      ],
+      "items": [
+        {
+          "product": "Unico",
+          "dose": 0.5,
+          "unit": "L/ha"
+        },
+        {
+          "product": "Axial",
+          "dose": 0.6,
+          "unit": "L/ha"
+        },
+        {
+          "product": "MCPA",
+          "dose": 1.0,
+          "unit": "L/ha"
+        },
+        {
+          "product": "Paradigm",
+          "dose": 25,
+          "unit": "g/ha"
+        }
+      ],
+      "notes": "Se hizo solamente Santa María. Se arrancó por Santa María 5B (cebada) por ser el más urgente.",
+      "source": "Confirmación Maxi 17/08/2026",
+      "ts": 1786946400000
+    },
+    {
+      "id": "fert-colza-c1z30-2026-08-13-14",
+      "type": "Fertilización",
+      "status": "Realizada",
+      "date": "2026-08-14",
+      "dateStart": "2026-08-13",
+      "dateEnd": "2026-08-14",
+      "operator": "",
+      "lots": [
+        "Isletas|10|Colza",
+        "Isletas|11|Colza",
+        "Isletas|13|Colza",
+        "Isletas|14-15|Colza",
+        "Isletas|16|Colza CL",
+        "Isletas|17|Colza",
+        "Isletas|22|Colza CL",
+        "Isletas|8|Colza CL"
+      ],
+      "items": [
+        {
+          "product": "Urea azufrada C1/Z30",
+          "dose": null,
+          "unit": "kg/ha",
+          "variable": true
+        }
+      ],
+      "perLotDose": {
+        "Isletas|10|Colza": 143.1,
+        "Isletas|11|Colza": 160.43,
+        "Isletas|13|Colza": 139.89,
+        "Isletas|14-15|Colza": 121.75,
+        "Isletas|16|Colza CL": 120.19,
+        "Isletas|17|Colza": 122.86,
+        "Isletas|22|Colza CL": 146.37,
+        "Isletas|8|Colza CL": 122.44
+      },
+      "notes": "Aplicación variable según mapa de prescripción. Entre jueves 13/08 y viernes 14/08 se llegaron a hacer solamente las colzas.",
+      "source": "Mapa de prescripción SMDB Urea Azufrada C1-Z30 2026-27 + confirmación Maxi 17/08/2026",
+      "ts": 1786946400001
+    }
+  ]
 }

@@ -13,7 +13,7 @@
       "SPS kg/ha": 287,
       "KCl kg/ha": 223,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": null,
+      "Prescripción C1/Z30 kg/ha": 143.1,
       "Validación": null,
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -30,7 +30,7 @@
       "SPS kg/ha": 452,
       "KCl kg/ha": 0,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": null,
+      "Prescripción C1/Z30 kg/ha": 160.43,
       "Validación": null,
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -47,7 +47,7 @@
       "SPS kg/ha": 471,
       "KCl kg/ha": 0,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": 124.4,
+      "Prescripción C1/Z30 kg/ha": 118.34,
       "Validación": "Pendiente",
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -65,7 +65,7 @@
       "SPS kg/ha": 355,
       "KCl kg/ha": 188,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": 171.17,
+      "Prescripción C1/Z30 kg/ha": 169.86,
       "Validación": "Pendiente",
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -83,7 +83,7 @@
       "SPS kg/ha": 292,
       "KCl kg/ha": 190,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": null,
+      "Prescripción C1/Z30 kg/ha": 139.89,
       "Validación": null,
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -101,7 +101,7 @@
       "SPS kg/ha": 129,
       "KCl kg/ha": 163,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": null,
+      "Prescripción C1/Z30 kg/ha": 121.75,
       "Validación": null,
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -118,7 +118,7 @@
       "SPS kg/ha": 245,
       "KCl kg/ha": 0,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": null,
+      "Prescripción C1/Z30 kg/ha": 120.19,
       "Validación": null,
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -136,7 +136,7 @@
       "SPS kg/ha": 128,
       "KCl kg/ha": 173,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": null,
+      "Prescripción C1/Z30 kg/ha": 122.86,
       "Validación": null,
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -153,11 +153,12 @@
       "SPS kg/ha": 450,
       "KCl kg/ha": 174,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": 169.52,
+      "Prescripción C1/Z30 kg/ha": null,
       "Validación": "Pendiente",
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
-      "Observación recorrida": null
+      "Observación recorrida": null,
+      "C1/Z30 nota": "REVISAR: el PDF nuevo presenta referencias de área corridas en la sección trigo. Dosis no activada hasta validar."
     },
     {
       "Campo": "Isletas",
@@ -174,7 +175,8 @@
       "Validación": null,
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
-      "Observación recorrida": null
+      "Observación recorrida": null,
+      "C1/Z30 nota": "REVISAR: el PDF nuevo presenta referencias de área corridas en la sección trigo. Dosis no activada hasta validar."
     },
     {
       "Campo": "Isletas",
@@ -187,7 +189,7 @@
       "SPS kg/ha": 450,
       "KCl kg/ha": 0,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": 160.99,
+      "Prescripción C1/Z30 kg/ha": 155.57,
       "Validación": "Pendiente",
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -208,7 +210,8 @@
       "Validación": null,
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
-      "Observación recorrida": null
+      "Observación recorrida": null,
+      "C1/Z30 nota": "REVISAR: el PDF nuevo presenta referencias de área corridas en la sección trigo. Dosis no activada hasta validar."
     },
     {
       "Campo": "Isletas",
@@ -221,11 +224,12 @@
       "SPS kg/ha": 259,
       "KCl kg/ha": 143,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": 143.79,
+      "Prescripción C1/Z30 kg/ha": null,
       "Validación": "Pendiente",
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
-      "Observación recorrida": null
+      "Observación recorrida": null,
+      "C1/Z30 nota": "REVISAR: el PDF nuevo presenta referencias de área corridas en la sección trigo. Dosis no activada hasta validar."
     },
     {
       "Campo": "Isletas",
@@ -238,7 +242,7 @@
       "SPS kg/ha": 244,
       "KCl kg/ha": 186,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": null,
+      "Prescripción C1/Z30 kg/ha": 146.37,
       "Validación": null,
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -255,7 +259,7 @@
       "SPS kg/ha": 256,
       "KCl kg/ha": 169,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": 141.97,
+      "Prescripción C1/Z30 kg/ha": 138.28,
       "Validación": "Pendiente",
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -272,7 +276,7 @@
       "SPS kg/ha": 402,
       "KCl kg/ha": 252,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": 168.81,
+      "Prescripción C1/Z30 kg/ha": 166.47,
       "Validación": "Pendiente",
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -289,7 +293,7 @@
       "SPS kg/ha": 0,
       "KCl kg/ha": 271,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": 185.13,
+      "Prescripción C1/Z30 kg/ha": 180.89,
       "Validación": "Pendiente",
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -310,7 +314,8 @@
       "Validación": null,
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
-      "Observación recorrida": null
+      "Observación recorrida": null,
+      "C1/Z30 nota": "REVISAR: el PDF nuevo presenta referencias de área corridas en la sección trigo. Dosis no activada hasta validar."
     },
     {
       "Campo": "Isletas",
@@ -327,7 +332,8 @@
       "Validación": null,
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
-      "Observación recorrida": null
+      "Observación recorrida": null,
+      "C1/Z30 nota": "REVISAR: el PDF nuevo presenta referencias de área corridas en la sección trigo. Dosis no activada hasta validar."
     },
     {
       "Campo": "Isletas",
@@ -344,7 +350,8 @@
       "Validación": null,
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
-      "Observación recorrida": null
+      "Observación recorrida": null,
+      "C1/Z30 nota": "REVISAR: el PDF nuevo presenta referencias de área corridas en la sección trigo. Dosis no activada hasta validar."
     },
     {
       "Campo": "Isletas",
@@ -357,7 +364,7 @@
       "SPS kg/ha": 346,
       "KCl kg/ha": 192,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": null,
+      "Prescripción C1/Z30 kg/ha": 122.44,
       "Validación": null,
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -375,7 +382,7 @@
       "SPS kg/ha": 289,
       "KCl kg/ha": 89,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": 146.67,
+      "Prescripción C1/Z30 kg/ha": 146.5,
       "Validación": "Pendiente",
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -392,7 +399,7 @@
       "SPS kg/ha": 292,
       "KCl kg/ha": 117,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": 162.73,
+      "Prescripción C1/Z30 kg/ha": 162.33,
       "Validación": "Pendiente",
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -409,7 +416,7 @@
       "SPS kg/ha": 214,
       "KCl kg/ha": 171,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": 165.04,
+      "Prescripción C1/Z30 kg/ha": 164.98,
       "Validación": "Pendiente",
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -426,7 +433,7 @@
       "SPS kg/ha": 0,
       "KCl kg/ha": 228,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": 148.97,
+      "Prescripción C1/Z30 kg/ha": 149.36,
       "Validación": "Pendiente",
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -447,7 +454,8 @@
       "Validación": null,
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
-      "Observación recorrida": "Guayabo 15 ha - Terra 24 ha"
+      "Observación recorrida": "Guayabo 15 ha - Terra 24 ha",
+      "C1/Z30 nota": "REVISAR: el PDF nuevo presenta referencias de área corridas en la sección trigo. Dosis no activada hasta validar."
     },
     {
       "Campo": "Santa Maria",
@@ -460,7 +468,7 @@
       "SPS kg/ha": 151,
       "KCl kg/ha": 168,
       "Urea S base kg/ha": 60,
-      "Prescripción C1/Z30 kg/ha": 155.85,
+      "Prescripción C1/Z30 kg/ha": 155.74,
       "Validación": "Pendiente",
       "Dosis ajustada kg/ha": null,
       "Estado/Fenología": null,
@@ -2926,72 +2934,204 @@
     {
       "Campo": "Isletas",
       "Lote": "11 chico",
-      "Promedio Urea azufrada kg/ha": 124.4
+      "Promedio Urea azufrada kg/ha": 118.34,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
     },
     {
       "Campo": "Isletas",
       "Lote": "12",
-      "Promedio Urea azufrada kg/ha": 171.17
+      "Promedio Urea azufrada kg/ha": 169.86,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
     },
     {
       "Campo": "Isletas",
       "Lote": "2",
-      "Promedio Urea azufrada kg/ha": 160.99
+      "Promedio Urea azufrada kg/ha": 155.57,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
     },
     {
       "Campo": "Isletas",
       "Lote": "3",
-      "Promedio Urea azufrada kg/ha": 141.97
+      "Promedio Urea azufrada kg/ha": 138.28,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
     },
     {
       "Campo": "Isletas",
       "Lote": "4",
-      "Promedio Urea azufrada kg/ha": 168.81
+      "Promedio Urea azufrada kg/ha": 166.47,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
     },
     {
       "Campo": "Isletas",
       "Lote": "5a",
-      "Promedio Urea azufrada kg/ha": 185.13
+      "Promedio Urea azufrada kg/ha": 180.89,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
     },
     {
       "Campo": "Santa Maria",
       "Lote": "13",
-      "Promedio Urea azufrada kg/ha": 146.67
+      "Promedio Urea azufrada kg/ha": 146.5,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
     },
     {
       "Campo": "Santa Maria",
       "Lote": "4b",
-      "Promedio Urea azufrada kg/ha": 162.73
+      "Promedio Urea azufrada kg/ha": 162.33,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
     },
     {
       "Campo": "Santa Maria",
       "Lote": "4d",
-      "Promedio Urea azufrada kg/ha": 165.04
+      "Promedio Urea azufrada kg/ha": 164.98,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
     },
     {
       "Campo": "Santa Maria",
       "Lote": "4e",
-      "Promedio Urea azufrada kg/ha": 148.97
+      "Promedio Urea azufrada kg/ha": 149.36,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
     },
     {
       "Campo": "Santa Maria",
       "Lote": "5b",
-      "Promedio Urea azufrada kg/ha": 155.85
+      "Promedio Urea azufrada kg/ha": 155.74,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "10",
+      "Promedio Urea azufrada kg/ha": 143.1,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "11",
+      "Promedio Urea azufrada kg/ha": 160.43,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "13",
+      "Promedio Urea azufrada kg/ha": 139.89,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "14-15",
+      "Promedio Urea azufrada kg/ha": 121.75,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "16",
+      "Promedio Urea azufrada kg/ha": 120.19,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "17",
+      "Promedio Urea azufrada kg/ha": 122.86,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "22",
+      "Promedio Urea azufrada kg/ha": 146.37,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "8",
+      "Promedio Urea azufrada kg/ha": 122.44,
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)"
     },
     {
       "Campo": "Isletas",
       "Lote": "18",
-      "Promedio Urea azufrada kg/ha": 169.52
+      "Promedio Urea azufrada kg/ha": null,
+      "Total Urea azufrada kg": 8664.75,
+      "Promedio reportado PDF kg/ha": 104.24,
+      "Promedio calculado total/área maestra kg/ha": 169.9,
+      "Estado": "REVISAR antes de aplicar",
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)",
+      "Observacion": "La columna Promedio del PDF de trigo usa áreas que no corresponden al lote. No se toma como dosis operativa hasta validar con Dioni."
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "19",
+      "Promedio Urea azufrada kg/ha": null,
+      "Total Urea azufrada kg": 12331.75,
+      "Promedio reportado PDF kg/ha": 244.58,
+      "Promedio calculado total/área maestra kg/ha": 148.58,
+      "Estado": "REVISAR antes de aplicar",
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)",
+      "Observacion": "La columna Promedio del PDF de trigo usa áreas que no corresponden al lote. No se toma como dosis operativa hasta validar con Dioni."
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "20",
+      "Promedio Urea azufrada kg/ha": null,
+      "Total Urea azufrada kg": 7935.78,
+      "Promedio reportado PDF kg/ha": 916.3,
+      "Promedio calculado total/área maestra kg/ha": 158.72,
+      "Estado": "REVISAR antes de aplicar",
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)",
+      "Observacion": "La columna Promedio del PDF de trigo usa áreas que no corresponden al lote. No se toma como dosis operativa hasta validar con Dioni."
     },
     {
       "Campo": "Isletas",
       "Lote": "21",
-      "Promedio Urea azufrada kg/ha": 143.79
+      "Promedio Urea azufrada kg/ha": null,
+      "Total Urea azufrada kg": 8624.8,
+      "Promedio reportado PDF kg/ha": 518.21,
+      "Promedio calculado total/área maestra kg/ha": 141.39,
+      "Estado": "REVISAR antes de aplicar",
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)",
+      "Observacion": "La columna Promedio del PDF de trigo usa áreas que no corresponden al lote. No se toma como dosis operativa hasta validar con Dioni."
     },
     {
-      "Campo": "TOTAL / PROMEDIO PDF",
-      "Lote": null,
-      "Promedio Urea azufrada kg/ha": 154.96
+      "Campo": "Isletas",
+      "Lote": "5b",
+      "Promedio Urea azufrada kg/ha": null,
+      "Total Urea azufrada kg": 1645.54,
+      "Promedio reportado PDF kg/ha": 98.49,
+      "Promedio calculado total/área maestra kg/ha": 182.84,
+      "Estado": "REVISAR antes de aplicar",
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)",
+      "Observacion": "La columna Promedio del PDF de trigo usa áreas que no corresponden al lote. No se toma como dosis operativa hasta validar con Dioni."
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "6",
+      "Promedio Urea azufrada kg/ha": null,
+      "Total Urea azufrada kg": 2443.22,
+      "Promedio reportado PDF kg/ha": 55.15,
+      "Promedio calculado total/área maestra kg/ha": 143.72,
+      "Estado": "REVISAR antes de aplicar",
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)",
+      "Observacion": "La columna Promedio del PDF de trigo usa áreas que no corresponden al lote. No se toma como dosis operativa hasta validar con Dioni."
+    },
+    {
+      "Campo": "Isletas",
+      "Lote": "7",
+      "Promedio Urea azufrada kg/ha": null,
+      "Total Urea azufrada kg": 2596.4,
+      "Promedio reportado PDF kg/ha": 51.04,
+      "Promedio calculado total/área maestra kg/ha": 152.73,
+      "Estado": "REVISAR antes de aplicar",
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)",
+      "Observacion": "La columna Promedio del PDF de trigo usa áreas que no corresponden al lote. No se toma como dosis operativa hasta validar con Dioni."
+    },
+    {
+      "Campo": "Santa Maria",
+      "Lote": "5a",
+      "Promedio Urea azufrada kg/ha": null,
+      "Total Urea azufrada kg": 7464.66,
+      "Promedio reportado PDF kg/ha": 121.42,
+      "Promedio calculado total/área maestra kg/ha": 168.5,
+      "Estado": "REVISAR antes de aplicar",
+      "Fuente": "Mapa prescripción SMDB Urea Azufrada C1-Z30 2026-27 (usuario 17/08)",
+      "Observacion": "La columna Promedio del PDF de trigo usa áreas que no corresponden al lote. No se toma como dosis operativa hasta validar con Dioni."
     }
   ],
   "dataIssues": [
@@ -3082,10 +3222,16 @@
       "Registro": "Isletas 13 siembra",
       "Qué verificar": "No aparece una fila de siembra individual explícita en la planilla madre disponible. Se mantiene sin fecha para no inventar.",
       "Resuelto": "Sí · fecha confirmada por Maxi 12/08/2026"
+    },
+    {
+      "Prioridad": "ALTA",
+      "Tipo": "Error de fórmula en fuente",
+      "Registro": "C1/Z30 trigo · mapa 2026-27",
+      "Qué verificar": "La columna Promedio del PDF de trigo está calculada con superficies de otros lotes (referencias corridas). Se preservan Total y Promedio reportado, pero la app NO activa la dosis de trigo hasta validar con Dioni."
     }
   ],
   "establishment": "Santa María de Bequelo",
-  "appVersion": "0.4.4",
+  "appVersion": "0.5.1",
   "notes": [
     "Base restringida exclusivamente al establecimiento Santa María de Bequelo.",
     "La recorrida del 10/08/2026 se precarga en initial_state.json."
@@ -3400,6 +3546,11 @@
           "Producto": "MCPA",
           "Dosis": 1.0,
           "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
       "Estado": "Planificado · ejecutar con piso",
@@ -3425,6 +3576,11 @@
           "Producto": "MCPA",
           "Dosis": 1.0,
           "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
       "Estado": "Planificado · ejecutar con piso",
@@ -3450,6 +3606,11 @@
           "Producto": "MCPA",
           "Dosis": 1.0,
           "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
       "Estado": "Planificado · ejecutar con piso",
@@ -3475,6 +3636,11 @@
           "Producto": "MCPA",
           "Dosis": 1.0,
           "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
       "Estado": "Planificado · ejecutar con piso",
@@ -3500,6 +3666,11 @@
           "Producto": "MCPA",
           "Dosis": 1.0,
           "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
       "Estado": "Planificado · ejecutar con piso",
@@ -3525,6 +3696,11 @@
           "Producto": "MCPA",
           "Dosis": 1.0,
           "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
       "Estado": "Planificado · ejecutar con piso",
@@ -3550,11 +3726,16 @@
           "Producto": "MCPA",
           "Dosis": 1.0,
           "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
-      "Estado": "Planificado · ejecutar con piso",
-      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
-      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+      "Estado": "Aplicado · 14-ago-2026",
+      "Motivo": "Aplicación confirmada por Maxi: Chumillo con mosquito; se comenzó por Santa María 5B por urgencia.",
+      "Fuente": "Confirmación Maxi 17/08/2026"
     },
     {
       "Campo": "Santa Maria",
@@ -3575,11 +3756,16 @@
           "Producto": "MCPA",
           "Dosis": 1.0,
           "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
-      "Estado": "Planificado · ejecutar con piso",
-      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
-      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+      "Estado": "Aplicado · 14-ago-2026",
+      "Motivo": "Aplicación confirmada por Maxi: Chumillo con mosquito; se comenzó por Santa María 5B por urgencia.",
+      "Fuente": "Confirmación Maxi 17/08/2026"
     },
     {
       "Campo": "Santa Maria",
@@ -3600,11 +3786,16 @@
           "Producto": "MCPA",
           "Dosis": 1.0,
           "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
-      "Estado": "Planificado · ejecutar con piso",
-      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
-      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+      "Estado": "Aplicado · 14-ago-2026",
+      "Motivo": "Aplicación confirmada por Maxi: Chumillo con mosquito; se comenzó por Santa María 5B por urgencia.",
+      "Fuente": "Confirmación Maxi 17/08/2026"
     },
     {
       "Campo": "Santa Maria",
@@ -3625,11 +3816,16 @@
           "Producto": "MCPA",
           "Dosis": 1.0,
           "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
-      "Estado": "Planificado · ejecutar con piso",
-      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
-      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+      "Estado": "Aplicado · 14-ago-2026",
+      "Motivo": "Aplicación confirmada por Maxi: Chumillo con mosquito; se comenzó por Santa María 5B por urgencia.",
+      "Fuente": "Confirmación Maxi 17/08/2026"
     },
     {
       "Campo": "Santa Maria",
@@ -3650,11 +3846,16 @@
           "Producto": "MCPA",
           "Dosis": 1.0,
           "Unidad": "L/ha"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
-      "Estado": "Planificado · ejecutar con piso",
-      "Motivo": "Receta definida en planilla de seguimiento de gramíneas.",
-      "Fuente": "Planilla de Seguimiento Maxi · herb colza"
+      "Estado": "Aplicado · 14-ago-2026",
+      "Motivo": "Aplicación confirmada por Maxi: Chumillo con mosquito; se comenzó por Santa María 5B por urgencia.",
+      "Fuente": "Confirmación Maxi 17/08/2026"
     },
     {
       "Campo": "Isletas",
@@ -3676,6 +3877,11 @@
           "Dosis": 0.55,
           "Unidad": "L/ha",
           "Uso": "fungicida"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
       "Estado": "Planificado · ejecutar con piso",
@@ -3702,6 +3908,11 @@
           "Dosis": 0.55,
           "Unidad": "L/ha",
           "Uso": "fungicida"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
       "Estado": "Planificado · ejecutar con piso",
@@ -3728,6 +3939,11 @@
           "Dosis": 0.55,
           "Unidad": "L/ha",
           "Uso": "fungicida"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
       "Estado": "Planificado · ejecutar con piso",
@@ -3754,6 +3970,11 @@
           "Dosis": 0.55,
           "Unidad": "L/ha",
           "Uso": "fungicida"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
       "Estado": "Planificado · ejecutar con piso",
@@ -3780,6 +4001,11 @@
           "Dosis": 0.55,
           "Unidad": "L/ha",
           "Uso": "fungicida"
+        },
+        {
+          "Producto": "Paradigm",
+          "Dosis": 25,
+          "Unidad": "g/ha"
         }
       ],
       "Estado": "Planificado · ejecutar con piso",
@@ -3793,8 +4019,8 @@
       "items": [
         {
           "Producto": "Merit Plus",
-          "Dosis": 0.1,
-          "Unidad": "L/ha"
+          "Dosis": 100,
+          "Unidad": "g/ha"
         },
         {
           "Producto": "MCPA",
@@ -3819,8 +4045,8 @@
       "items": [
         {
           "Producto": "Merit Plus",
-          "Dosis": 0.1,
-          "Unidad": "L/ha"
+          "Dosis": 100,
+          "Unidad": "g/ha"
         },
         {
           "Producto": "MCPA",
@@ -3845,8 +4071,8 @@
       "items": [
         {
           "Producto": "Merit Plus",
-          "Dosis": 0.1,
-          "Unidad": "L/ha"
+          "Dosis": 100,
+          "Unidad": "g/ha"
         },
         {
           "Producto": "MCPA",
@@ -3885,13 +4111,8 @@
     }
   },
   "operationalPlan": {
-    "startDate": "2026-08-13",
-    "title": "Inicio previsto de aplicaciones en cebadas y trigos con mosquito",
-    "status": "Planificado",
-    "notes": "Arrancar desde el 13/08/2026, sujeto a piso y condiciones meteorológicas. No marcar como aplicado hasta confirmación de ejecución.",
-    "crops": [
-      "Cebada",
-      "Trigo"
-    ]
+    "updated": "2026-08-17",
+    "notes": "Viernes 14/08 se realizó únicamente Santa María en cebadas. Isletas y trigos permanecen pendientes hasta confirmación de ejecución.",
+    "source": "Confirmación Maxi 17/08/2026"
   }
 }

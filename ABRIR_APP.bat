@@ -1,10 +1,10 @@
 @echo off
 setlocal
-title Agro Copiloto v0.5.0
+title Agro Copiloto v0.5.1
 cd /d "%~dp0"
 echo.
 echo ==========================================
-echo   AGRO COPILOTO v0.5.0
+echo   AGRO COPILOTO v0.5.1
 echo ==========================================
 echo.
 echo Abriendo en http://localhost:8090

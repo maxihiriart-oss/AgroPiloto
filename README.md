@@ -1,4 +1,4 @@
-# Agro Copiloto v0.5.0 · Santa María de Bequelo
+# Agro Copiloto v0.5.1 · Santa María de Bequelo
 
 ## Qué agrega esta versión
 
@@ -39,5 +39,5 @@ La fenología de trigo/cebada continúa siendo una proyección operacional calib
 - INUMET e INIA GRAS quedan como referencias oficiales de contraste para eventos y series agroclimáticas.
 
 
-## v0.5.0 móvil/cloud
+## v0.5.1 móvil/cloud
 Preparada para Railway: PORT dinámico, volumen persistente con DATA_DIR, acceso opcional con contraseña, Gunicorn y PWA/offline mejorado. Ver DEPLOYAR_RAILWAY.md.

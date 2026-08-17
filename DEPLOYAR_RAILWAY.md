@@ -1,4 +1,4 @@
-# Agro Copiloto v0.5.0 — despliegue móvil
+# Agro Copiloto v0.5.1 — despliegue móvil
 
 ## Variables recomendadas en Railway
 

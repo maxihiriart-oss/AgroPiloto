@@ -2,11 +2,12 @@
 const $ = (s, r=document)=>r.querySelector(s);
 const $$ = (s, r=document)=>[...r.querySelectorAll(s)];
 let DATA, state = {selectedLot:null};
-const LS_KEY='agroCopilotoV050';
-const DIRTY_KEY='agroCopilotoDirtyV050';
+const LS_KEY='agroCopilotoV051';
+const DIRTY_KEY='agroCopilotoDirtyV051';
 
 function normalize(s){return (s??'').toString().trim().toLowerCase();}
-function saved(){try{return JSON.parse(localStorage.getItem(LS_KEY))||{scouts:[],photos:[],tasks:[],validations:{}}}catch{return {scouts:[],photos:[],tasks:[],validations:{}}}}
+function blankState(){return {scouts:[],photos:[],tasks:[],validations:{},operations:[]}}
+function saved(){try{const d=JSON.parse(localStorage.getItem(LS_KEY))||blankState();d.scouts=d.scouts||[];d.photos=d.photos||[];d.tasks=d.tasks||[];d.validations=d.validations||{};d.operations=d.operations||[];return d}catch{return blankState()}}
 async function pushLocalState(d=saved()){
   try{
     const r=await fetch('/api/state',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)});
@@ -29,7 +30,7 @@ async function syncFromServer(){
     }
     const r=await fetch('/api/state'); if(!r.ok)return;
     const remote=await r.json();
-    const hasRemote=(remote.scouts?.length||remote.photos?.length||remote.tasks?.length||Object.keys(remote.validations||{}).length);
+    const hasRemote=(remote.scouts?.length||remote.photos?.length||remote.tasks?.length||remote.operations?.length||Object.keys(remote.validations||{}).length);
     if(hasRemote){ localStorage.setItem(LS_KEY,JSON.stringify(remote)); }
     else { await pushLocalState(local); }
   }catch(e){}
@@ -89,7 +90,7 @@ function showView(id){
   $$('.view').forEach(v=>v.classList.toggle('active',v.id===id));
   $$('.bottomnav button').forEach(b=>b.classList.toggle('active',b.dataset.view===id));
   if(id==='homeView')renderHome(); if(id==='lotsView')renderLots(); if(id==='scoutView')renderScout();
-  if(id==='photosView')renderPhotos(); if(id==='prescriptionsView')renderPrescriptions(); if(id==='tasksView')renderTasks();
+  if(id==='photosView')renderPhotos(); if(id==='prescriptionsView')renderPrescriptions(); if(id==='operationsView')renderOperations(); if(id==='tasksView')renderTasks();
   window.scrollTo({top:0,behavior:'smooth'});
 }
 function getLot(campo,lote,cultivo){
@@ -125,7 +126,7 @@ function renderHome(){
       <div class="grid two">
         <button class="btn" onclick="showView('scoutView')">+ Nueva recorrida</button>
         <button class="btn secondary" onclick="showView('photosView')">Analizar / guardar foto</button>
-        <button class="btn secondary" onclick="showView('prescriptionsView')">Validar dosis</button>
+        <button class="btn secondary" onclick="showView('operationsView')">+ Registrar labor</button>
         <button class="btn secondary" onclick="showView('tasksView')">Pendientes (${db.tasks.filter(t=>!t.done).length})</button>
       </div>
     </div>
@@ -137,6 +138,8 @@ function renderHome(){
       ${(db.scouts.slice().sort((a,b)=>b.ts-a.ts).slice(0,5).map(s=>`<div><b>${s.campo} ${s.lote}</b> · ${s.cultivo||''}<div class="small muted">${new Date(s.ts).toLocaleString('es-UY')} · ${s.stage||'sin estadio'} · ${s.condition||'sin estado'}</div></div>`).join(''))||'<div class="muted">Todavía no cargaste recorridas desde la app.</div>'}
       </div>
     </div>`;
+  const ops=db.operations.slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')).slice(0,4);
+  $('#homeView').insertAdjacentHTML('beforeend',`<div class="card" style="margin-top:12px"><div class="row"><h3>Últimas labores realizadas</h3><button class="ghost" onclick="showView('operationsView')">Ver todas</button></div>${ops.length?ops.map(o=>operationCard(o,true)).join(''):'<div class="muted">Sin labores registradas.</div>'}</div>`);
   renderPredictiveDashboard();
   renderAgronomicCalendar();
 }
@@ -567,6 +570,11 @@ function renderLot(){
     </div>
   </div>`;
   renderPhenology(l);
+  const lotOps=operationsForLot(l);
+  if(lotOps.length){
+    const host=$('#lotView .card:last-of-type');
+    $('#lotView').insertAdjacentHTML('beforeend',`<div class="card" style="margin-top:10px"><div class="row"><h3>Labores registradas</h3><button class="ghost" onclick="showView('operationsView')">+ Labor</button></div>${lotOps.map(o=>operationCard(o)).join('')}</div>`);
+  }
   loadWeatherForLot(l);
   renderLotPredictive(l);
 }
@@ -654,6 +662,56 @@ function renderPrescriptions(){
     $$('#rxList .decision-grid button').forEach(b=>b.onclick=()=>{const key=decodeURIComponent(b.dataset.key);db.validations[key]={decision:b.dataset.decision,ts:Date.now()};persist(db);draw()})
   }; $('#rxSearch').oninput=draw; draw();
 }
+
+function operationLots(op){return (op.lots||[]).map(k=>DATA.lots.find(l=>lotKey(l)===k)).filter(Boolean)}
+function operationMix(op, compact=false){
+  return (op.items||[]).map(i=>{
+    if(i.variable)return `${i.product} · dosis variable por lote`;
+    return `${i.product} ${fmt(i.dose, i.unit==='g/ha'?0:3)} ${i.unit||''}`;
+  }).join(' + ');
+}
+function operationDateLabel(op){
+  if(op.dateStart&&op.dateEnd&&op.dateStart!==op.dateEnd)return `${prettyISO(op.dateStart)}–${prettyISO(op.dateEnd)}`;
+  return prettyISO(op.date||op.dateEnd||op.dateStart);
+}
+function operationCard(op,compact=false){
+  const lots=operationLots(op); const names=lots.map(l=>`${l.Campo==='Santa Maria'?'SM':'Isletas'} ${l.Lote}`).join(', ');
+  return `<div class="operation-card ${normalize(op.status).includes('realizada')?'done':''}">
+    <div class="row"><div><b>${op.type||'Labor'}</b> · ${operationDateLabel(op)}</div><span class="pill">${op.status||'—'}</span></div>
+    <div class="small muted" style="margin-top:4px">${names||'Sin lotes'}${op.operator?` · ${op.operator}`:''}</div>
+    <div class="mixline">${operationMix(op)}</div>
+    ${!compact&&op.perLotDose?`<div class="small" style="margin-top:7px">${lots.map(l=>{const k=lotKey(l);return op.perLotDose[k]!=null?`<span class="dose-chip">${l.Campo==='Santa Maria'?'SM':'Isletas'} ${l.Lote}: <b>${fmt(op.perLotDose[k],2)} kg/ha</b></span>`:''}).join(' ')}</div>`:''}
+    ${op.notes?`<div class="small" style="margin-top:6px">${op.notes}</div>`:''}
+    ${!compact&&op.source?`<div class="small muted" style="margin-top:5px">Fuente: ${op.source}</div>`:''}
+  </div>`;
+}
+function operationsForLot(l){return saved().operations.filter(o=>(o.lots||[]).includes(lotKey(l))).sort((a,b)=>(b.date||b.dateEnd||'').localeCompare(a.date||a.dateEnd||''))}
+function renderOperations(){
+  const db=saved();
+  $('#operationsView').innerHTML=`<div class="card"><div class="row"><div><h2>Labores</h2><div class="small muted">Prescripción ≠ ejecución. Acá registramos lo que realmente se hizo.</div></div><button class="btn" id="toggleOpForm">+ Nueva labor</button></div></div>
+  <div id="opFormCard" class="card hidden" style="margin-top:10px"><h3>Registrar labor</h3>
+    <div class="formgrid">
+      <div><label>Fecha</label><input id="opDate" type="date" value="${new Date().toISOString().slice(0,10)}"></div>
+      <div><label>Tipo</label><select id="opType"><option>Pulverización</option><option>Fertilización</option><option>Siembra</option><option>Otra</option></select></div>
+      <div><label>Estado</label><select id="opStatus"><option>Realizada</option><option>Parcial</option><option>Planificada</option></select></div>
+      <div><label>Operador</label><input id="opOperator" placeholder="Ej. Chumillo · mosquito"></div>
+      <div class="span2"><label>Producto / mezcla</label><input id="opMix" placeholder="Ej. 0,5 L Único + 0,6 L Axial + 1 L MCPA + 25 g Paradigm"></div>
+      <div class="span2"><label>Lotes</label><div id="opLots" class="lot-check-grid">${DATA.lots.map(l=>`<label class="lot-check"><input type="checkbox" value="${lotKey(l)}"><span><b>${l.Campo==='Santa Maria'?'SM':'Isletas'} ${l.Lote}</b><small>${l.Cultivo}</small></span></label>`).join('')}</div></div>
+      <div class="span2"><label>Observaciones</label><textarea id="opNotes" placeholder="Qué se hizo, prioridad, problemas, condición de piso, etc."></textarea></div>
+      <div class="span2"><button class="btn" id="saveOperation">Guardar labor</button></div>
+    </div></div>
+  <div class="card" style="margin-top:10px"><div class="row"><h3>Historial operativo</h3><select id="opFilter" style="max-width:180px"><option>Todos</option><option>Realizada</option><option>Parcial</option><option>Planificada</option></select></div><div id="opList"></div></div>`;
+  $('#toggleOpForm').onclick=()=>$('#opFormCard').classList.toggle('hidden');
+  const draw=()=>{const f=$('#opFilter').value;const rows=db.operations.slice().sort((a,b)=>(b.date||b.dateEnd||'').localeCompare(a.date||a.dateEnd||''));$('#opList').innerHTML=rows.filter(o=>f==='Todos'||o.status===f).map(o=>operationCard(o)).join('')||'<div class="muted">Sin labores.</div>'};
+  $('#opFilter').onchange=draw; draw();
+  $('#saveOperation').onclick=()=>{
+    const lots=$$('#opLots input:checked').map(x=>x.value); if(!lots.length)return alert('Elegí al menos un lote');
+    const mix=$('#opMix').value.trim(); const items=mix?[{product:mix,dose:null,unit:'',freeText:true}]:[];
+    db.operations.push({id:'op-'+Date.now(),type:$('#opType').value,status:$('#opStatus').value,date:$('#opDate').value,operator:$('#opOperator').value.trim(),lots,items,notes:$('#opNotes').value.trim(),source:'Carga manual desde Agro Copiloto',ts:Date.now()});
+    persist(db); alert('Labor guardada'); renderOperations();
+  };
+}
+
 function renderTasks(){
  const db=saved();
  $('#tasksView').innerHTML=`<div class="card"><h2>Pendientes</h2><div class="row"><input id="taskText" placeholder="Ej. Recorrer Isletas 13 el martes"><button class="btn" id="addTask">+</button></div>

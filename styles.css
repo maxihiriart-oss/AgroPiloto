@@ -53,3 +53,8 @@ table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;b
 .alert-badge.alta{background:#fde7e7;color:#8e2929}.alert-badge.media{background:#fff0d9;color:#8a5100}.alert-badge.baja{background:#e8f1eb;color:#245d43}.alert-badge.info{background:#e8eef7;color:#355b88}
 .predict-alert.sev-alta{border-left-color:#b94141}.predict-alert.sev-media{border-left-color:#c98222}.predict-alert.sev-baja{border-left-color:#4f8a68}.predict-alert.sev-info{border-left-color:#547da9}
 @media (max-width:720px){.forecast-strip{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* v0.5.1 · módulo de labores */
+.operation-card{border:1px solid var(--line);border-left:5px solid #8a9c90;border-radius:12px;padding:10px 11px;margin-top:9px;background:#fbfcfb}.operation-card.done{border-left-color:var(--ok)}
+.dose-chip{display:inline-block;background:var(--soft);border-radius:999px;padding:4px 8px;margin:3px 3px 0 0}.lot-check-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;max-height:320px;overflow:auto;border:1px solid var(--line);border-radius:12px;padding:8px}.lot-check{display:flex;gap:8px;align-items:center;border:1px solid var(--line);border-radius:10px;padding:8px;background:#fff;margin:0}.lot-check input{width:auto}.lot-check span{display:flex;flex-direction:column}.lot-check small{font-size:10px;color:var(--muted)}
+@media(max-width:720px){.lot-check-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
