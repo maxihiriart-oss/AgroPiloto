@@ -1,0 +1,25 @@
+{
+  "name": "Drontech Operaciones",
+  "short_name": "Drontech",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3f4f6",
+  "theme_color": "#111827",
+  "description": "Drontech Operaciones v7: órdenes de caldo con historial y alertas de service/mantenimiento.",
+  "scope": "./",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
