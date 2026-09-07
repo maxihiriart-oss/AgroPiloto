@@ -15,7 +15,7 @@ const COLZA_CURVE=[{code:50,label:'BBCH 50 · botón floral',day:0},{code:51,lab
 function curveDay(code,curve){if(code==null)return null;for(let i=0;i<curve.length-1;i++){let a=curve[i],b=curve[i+1];if(code>=a.code&&code<=b.code)return a.day+(code-a.code)*(b.day-a.day)/(b.code-a.code)}return code<curve[0].code?curve[0].day:curve[curve.length-1].day}
 function phenologyForLot(l){
   const sc=latestScout(l),crop=norm(l.Cultivo),sow=parseCampaignDateSimple(l['Fecha siembra real']);
-  const isCer=crop.includes('trigo')||crop.includes('cebada'); const curve=isCer?CEREAL_CURVE:crop.includes('colza')?COLZA_CURVE:null;if(!curve)return null;
+  const isCer=crop.includes('trigo')||crop.includes('cebada');const curve=isCer?CEREAL_CURVE:crop.includes('colza')?COLZA_CURVE:null;if(!curve)return null;
   let code=isCer?cerealCode(sc?.stage):colzaCode(sc?.stage),anchor=null,anchorDay=null,confidence='Baja',uncertainty=10,basis='fecha de siembra';
   if(code!=null&&sc){anchor=new Date(sc.ts).toISOString().slice(0,10);anchorDay=curveDay(code,curve);confidence='Alta';uncertainty=isCer?4:6;basis='última recorrida + fecha de siembra';}
   else if(sow){anchor=isCer?addDaysISO(sow,crop.includes('cebada')?66:73):addDaysISO(sow,68);anchorDay=0;confidence=l.Variedad?'Media':'Baja';uncertainty=isCer?8:12;basis='fecha de siembra + curva estimada';}
@@ -24,12 +24,23 @@ function phenologyForLot(l){
   const milestones=curve.map(x=>({...x,date:addDaysISO(anchor,x.day-anchorDay),days:daysBetween(today,addDaysISO(anchor,x.day-anchorDay))})).filter(x=>x.days>=-3&&x.days<=30);
   return{confidence,uncertainty,basis,milestones};
 }
+function sum(a){return a.reduce((x,y)=>x+(Number.isFinite(+y)?+y:0),0)}
 async function renderWeatherSimple(l){
   const box=document.querySelector('#weatherSimple');if(!box)return;
   const start=parseCampaignDateSimple(l['Fecha siembra real']);
   if(!start){box.innerHTML='<div class="muted">Falta fecha de siembra confirmada para armar el historial climático.</div>';return;}
   box.innerHTML='<div class="muted">Cargando condiciones desde la siembra…</div>';
-  try{const q=new URLSearchParams({start,lat:DATA.weather?.latitude,lon:DATA.weather?.longitude});const r=await fetch('/api/weather?'+q);const w=await r.json();if(!r.ok)throw new Error(w.error||'sin datos');const s=w.summary||{};box.innerHTML=`<div class="grid3"><div class="metric"><b>${Number(s.precipitation_mm||0).toLocaleString('es-UY',{maximumFractionDigits:1})}</b><span>mm lluvia</span></div><div class="metric"><b>${s.frost_days||0}</b><span>heladas</span></div><div class="metric"><b>${Number(s.mean_temp_c||0).toLocaleString('es-UY',{maximumFractionDigits:1})}°</b><span>T media</span></div></div><div class="kv"><span>T mín / máx</span><b>${Number(s.min_temp_c||0).toLocaleString('es-UY',{maximumFractionDigits:1})} / ${Number(s.max_temp_c||0).toLocaleString('es-UY',{maximumFractionDigits:1})} °C</b></div><div class="kv"><span>Período seco máx.</span><b>${s.longest_dry_spell||0} días</b></div><div class="kv"><span>P − ET0</span><b>${Number(s.water_balance_mm||0).toLocaleString('es-UY',{maximumFractionDigits:1})} mm</b></div><small>Desde ${dmy(w.start_date)} hasta ${dmy(w.end_date)} · Open-Meteo histórico gridded.</small>`}catch(e){box.innerHTML=`<div class="muted">No pude cargar clima: ${e.message}</div>`}}
+  try{
+    const lat=Number(DATA.weather?.latitude)||-33.25,lon=Number(DATA.weather?.longitude)||-57.85;
+    const end=new Date().toISOString().slice(0,10);
+    const p=new URLSearchParams({latitude:lat,longitude:lon,start_date:start,end_date:end,daily:'temperature_2m_max,temperature_2m_min,temperature_2m_mean,precipitation_sum,et0_fao_evapotranspiration',timezone:'America/Montevideo'});
+    const r=await fetch('https://archive-api.open-meteo.com/v1/archive?'+p.toString());const w=await r.json();if(!r.ok||!w.daily)throw new Error(w.reason||'sin datos');
+    const d=w.daily,prec=sum(d.precipitation_sum||[]),et0=sum(d.et0_fao_evapotranspiration||[]),mins=(d.temperature_2m_min||[]).map(Number),maxs=(d.temperature_2m_max||[]).map(Number),means=(d.temperature_2m_mean||[]).map(Number);
+    const frost=mins.filter(x=>Number.isFinite(x)&&x<=0).length;let dry=0,longDry=0;(d.precipitation_sum||[]).forEach(x=>{dry=(+x<1)?dry+1:0;longDry=Math.max(longDry,dry)});
+    const minT=Math.min(...mins.filter(Number.isFinite)),maxT=Math.max(...maxs.filter(Number.isFinite)),meanT=means.length?sum(means)/means.length:0;
+    box.innerHTML=`<div class="grid3"><div class="metric"><b>${prec.toLocaleString('es-UY',{maximumFractionDigits:1})}</b><span>mm lluvia</span></div><div class="metric"><b>${frost}</b><span>heladas</span></div><div class="metric"><b>${meanT.toLocaleString('es-UY',{maximumFractionDigits:1})}°</b><span>T media</span></div></div><div class="kv"><span>T mín / máx</span><b>${minT.toLocaleString('es-UY',{maximumFractionDigits:1})} / ${maxT.toLocaleString('es-UY',{maximumFractionDigits:1})} °C</b></div><div class="kv"><span>Período seco máx.</span><b>${longDry} días</b></div><div class="kv"><span>P − ET0</span><b>${(prec-et0).toLocaleString('es-UY',{maximumFractionDigits:1})} mm</b></div><small>Desde ${dmy(start)} hasta ${dmy(end)} · historial Open-Meteo.</small>`;
+  }catch(e){box.innerHTML=`<div class="muted">No pude cargar clima: ${e.message}</div>`}
+}
 function renderPhenologySimple(l){const box=document.querySelector('#phenologySimple');if(!box)return;const p=phenologyForLot(l);if(!p){box.innerHTML='<div class="muted">Sin base suficiente para proyectar estadios.</div>';return}const ms=p.milestones.slice(0,5);box.innerHTML=`<div class="muted">Confianza ${p.confidence.toLowerCase()} · ±${p.uncertainty} días · ${p.basis}</div>${ms.map(m=>`<div class="line"><div><b>${m.label}</b><small>${m.days<0?'recién pasado':m.days===0?'estimado hoy':`en ~${m.days} días`}</small></div><span>${dmy(m.date)}</span></div>`).join('')||'<div class="muted">Sin hitos próximos en 30 días.</div>'}`}
 const lotDetailBase=lotDetail;
 lotDetail=function(){lotDetailBase();if(!selected)return;document.querySelector('#lots').insertAdjacentHTML('beforeend',`<div class="card"><h2>Predicción de estadios</h2><div id="phenologySimple"></div></div><div class="card"><h2>Clima desde siembra</h2><div id="weatherSimple"></div></div>`);renderPhenologySimple(selected);renderWeatherSimple(selected)};
