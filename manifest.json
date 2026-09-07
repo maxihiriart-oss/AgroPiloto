@@ -1,25 +1,15 @@
 {
-  "name": "Drontech Operaciones",
-  "short_name": "Drontech",
+  "name": "Agro Copiloto · Santa María de Bequelo",
+  "short_name": "Agro Copiloto",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f3f4f6",
-  "theme_color": "#111827",
-  "description": "Drontech Operaciones v7: órdenes de caldo con historial y alertas de service/mantenimiento.",
+  "background_color": "#f4f2ea",
+  "theme_color": "#18392b",
+  "description": "Tablero agronómico de Santa María de Bequelo para la campaña Invierno 2026/27.",
   "scope": "./",
   "orientation": "portrait",
   "icons": [
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    {"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
   ]
 }
