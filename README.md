@@ -1,14 +1,9 @@
-# Drontech Operaciones v7
+# Agro Copiloto · Santa María de Bequelo
 
-Actualización solicitada por operación:
+Tablero agronómico simple para Invierno 2026/27.
 
-- Orden de caldo por cliente/campo con historial local.
-- Productos dinámicos (6 casillas iniciales + botón para agregar más).
-- Nueva unidad `% del caldo`.
-- Cálculo por tanda compatible con `% del caldo`.
-- Services por uso con `lectura actual + próximo service`, sin depender de último service/intervalo.
-- Campo de detalle del último service.
-- Alertas visuales por horas/km y control semanal fijo cada 7 días.
-- Migración de los datos antiguos de service guardados en localStorage.
+La interfaz está separada de Drontech y se concentra en cuatro cosas: Inicio, Lotes, Pendientes y Nueva labor.
 
-Los datos siguen guardándose localmente en cada dispositivo.
+Datos tratados como realizados según confirmación de campo: fertilización base, B2/Z22, C1/Z30 de colzas y aplicaciones de Chumillo con Único como primer fungicida en trigos y cebadas.
+
+Pendientes operativos actuales: segundo fungicida de cebadas (Miravis, a definir por estado de hoja bandera) y confirmación de Z30 de gramíneas.
